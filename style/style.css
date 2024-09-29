@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    /* background-color: #F6F6F4; */
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* section 1 start */
+.full_video {
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+/* section1 end
+section 2  */
+
+/* .section2 {
+ padding:  10px;
+    } 
+    */
+.slides {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swipe_slider {
+    width: 100%;
+}
+
+.slide_one {
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.header_swiper_next_btn,
+.header_swiper_prev_btn {
+    width: 45px;
+    height: 90px;
+    overflow: hidden;
+    transform: translateY(-25%);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+
+.common_btn_class:hover {
+    background-color: #20202048;
+
+}
+
+.header_swiper_next_btn {
+    border-radius: 10px 0 0 10px;
+    right: 0;
+    padding-left: 5px;
+}
+
+.header_swiper_prev_btn {
+    left: 0;
+    padding-right: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+.header_swiper_next_btn::after,
+.header_swiper_prev_btn::after {
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+/* page3 */
+
+.page3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+
+    .left {
+        width: 20vw;
+        height: 200vh;
+        padding-top: 4vw;
+    }
+
+    .all_options {
+        margin-left: 3.5vw;
+        width: 80%;
+        height: 80%;
+
+        p {
+            font-size: 1.1vw;
+            margin-bottom: 1vw;
+            font-weight: 300;
+            cursor: pointer;
+        }
+    }
+
+    .mavic_opt {
+        width: auto;
+        padding-left: .5vw;
+        height: auto;
+        display: none;
+        background-color: #fff;
+
+    }
+
+    .active_mavic_opt {
+        display: block;
+    }
+
+    /* right side */
+    .right {
+        width: 80vw;
+        height: auto;
+    }
+    .not_found{
+        width: 96%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgb(197, 197, 197);
+        opacity: 0;
+        animation: animation_found .5s ease-in-out both;
+        h3{
+            font-weight: 400;
+            color: rgb(188, 188, 188);
+        }
+    }
+    
+}
+@keyframes animation_found {
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}

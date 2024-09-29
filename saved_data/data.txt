@@ -1,0 +1,104 @@
+
+https://static.tildacdn.com/tild3236-6632-4437-b839-356262616564/image_24.png
+         
+
+
+
+
+         <!-- <div class="cart_box">
+                            <div class="top_part">
+                                <div class="image_cont">
+                                    <img src="https://optim.tildacdn.com/stor6634-6162-4564-a435-366365333066/-/resize/520x/-/format/webp/82437071.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="bottom_part">
+                                <div class="part1_bottom">
+                                    <h3>DJI Mini 4 Pro (DJI RC 2)</h3>
+                                    <p>New Mini Drone With Great Camera</p>
+                                    <p class="price">93000 p. &nbsp; <span>130 00 p.</span></p>
+                                </div>
+                                <div class="part2_bottom">
+                                    <a href="">Add to Cart</a>
+                                    <a href="" class="read_more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_box">
+                            <div class="top_part">
+                                <div class="image_cont">
+                                    <img src="https://optim.tildacdn.com/stor6634-6162-4564-a435-366365333066/-/resize/520x/-/format/webp/82437071.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="bottom_part">
+                                <div class="part1_bottom">
+                                    <h3>DJI Mini 4 Pro (DJI RC 2)</h3>
+                                    <p>New Mini Drone With Great Camera Lorem ipsum dolor sit amet consectetur
+                                        adipisicing
+                                        elit. Nobis, saepe? </p>
+                                    <p class="price">93000 p. &nbsp; <span>130 00 p.</span></p>
+                                </div>
+                                <div class="part2_bottom">
+                                    <a href="">Add to Cart</a>
+                                    <a href="" class="read_more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_box">
+                            <div class="top_part">
+                                <div class="image_cont">
+                                    <img src="https://optim.tildacdn.com/stor6634-6162-4564-a435-366365333066/-/resize/520x/-/format/webp/82437071.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="bottom_part">
+                                <div class="part1_bottom">
+                                    <h3>DJI Mini 4 Pro (DJI RC 2)</h3>
+                                    <p>New Mini Drone With Great Camera</p>
+                                    <p class="price">93000 p. &nbsp; <span>130 00 p.</span></p>
+                                </div>
+                                <div class="part2_bottom">
+                                    <a href="">Add to Cart</a>
+                                    <a href="" class="read_more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_box">
+                            <div class="top_part">
+                                <div class="image_cont">
+                                    <img src="https://optim.tildacdn.com/stor6634-6162-4564-a435-366365333066/-/resize/520x/-/format/webp/82437071.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="bottom_part">
+                                <div class="part1_bottom">
+                                    <h3>DJI Mini 4 Pro (DJI RC 2)</h3>
+                                    <p>New Mini Drone With Great Camera</p>
+                                    <p class="price">93000 p. &nbsp; <span>130 00 p.</span></p>
+                                </div>
+                                <div class="part2_bottom">
+                                    <a href="">Add to Cart</a>
+                                    <a href="" class="read_more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_box">
+                            <div class="top_part">
+                                <div class="image_cont">
+                                    <img src="https://optim.tildacdn.com/stor6634-6162-4564-a435-366365333066/-/resize/520x/-/format/webp/82437071.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="bottom_part">
+                                <div class="part1_bottom">
+                                    <h3>DJI Mini 4 Pro (DJI RC 2)</h3>
+                                    <p>New Mini Drone With Great Camera</p>
+                                    <p class="price">93000 p. &nbsp; <span>130 00 p.</span></p>
+                                </div>
+                                <div class="part2_bottom">
+                                    <a href="">Add to Cart</a>
+                                    <a href="" class="read_more">Read More</a>
+                                </div>
+                            </div>
+                        </div> -->
