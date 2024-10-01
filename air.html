@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/mini.css">
+    <link rel="stylesheet" href="./style/All_part.css">
+</head>
+
+<body>
+
+    <div class="mini">
+        <iframe src="navbar.html"
+            onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+        <div class="mini_page1">
+            <div class="video_div">
+                <video preload="none" src="./videos/mini.mp4" loop muted autoplay></video>
+            </div>
+            <div class="mini_page1_text">
+                <h1 class="heading_decos">G7-Store <span class="changes_in_color_white">Air</span></h1>
+                <p>Mini to the Max</p>
+                <div>
+                    <a href="" class="button_class_all">Buy Now</a>
+                    <a href="#explore_page" class="explore button_class_all">Explore More</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="explore_page" class="mini_page2">
+            <div class="containers">
+                <h5>G7-Store Air is a lightweight and compact quadcopter ideal for photography and videography
+                    enthusiasts.
+                </h5>
+
+                <div class="all_carts">
+
+
+
+                </div>
+            </div>
+        </div>
+        <iframe src="footer.html"
+            onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+    </div>
+
+
+    <script src="./javascript/pageName.js"></script>
+    <script src="./javascript/common.js"></script>
+
+
+
+</body>
+
+</html>

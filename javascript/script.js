@@ -24,8 +24,15 @@ const swiper = new Swiper('.swiper', {
 
 
 // on click options bar
-document.querySelector(".mavic_clk").addEventListener("click", () => {
-    document.querySelector(".mavic_opt").classList.toggle("active_mavic_opt");
+var p_click_bar = document.querySelectorAll(".mavic_clk")
+
+p_click_bar.forEach(function (e, id) {
+
+    e.addEventListener("click", (elem) => {
+
+
+        document.querySelector(`.mavic_opt${id}`).classList.toggle("active_mavic_opt");
+    })
 })
 
 
@@ -39,7 +46,7 @@ document.querySelector(".mavic_clk").addEventListener("click", () => {
 
 
 var all_otp = document.querySelector(".all_options"); //options
-var pTag = all_otp.querySelectorAll("p");
+var pTag = all_otp.querySelectorAll("a");
 
 var listItems; //for pagination
 
@@ -49,19 +56,19 @@ let currentPage = 1; //for pagination
 
 var arrayData = [{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "Mavic 3" },
 { name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "Mavic 3 Thermal" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
 { name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "Mavic 3 Thermal" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
-{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "All" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
+{ name: "DJI Mavic 3 Pro", price: "199000", desc: "DJI3 Mavic pro drone with camera", category: "" },
 ]
 
 
@@ -104,8 +111,8 @@ function showData(myData) {
         newClutter = `<div class="not_found">
                             <h3>Nothing Found</h3>
                         </div>`;
-        
-                        document.querySelector(".all_carts").innerHTML = newClutter;
+
+        document.querySelector(".all_carts").innerHTML = newClutter;
         document.querySelector(".pagination-container").style.display = "none";
 
         return;
@@ -152,18 +159,22 @@ function showData(myData) {
     currentPage = 1;
 }
 
-
-
+var filteredData = [];
+var active_a_tag = document.querySelector(".active_a_tag");
 pTag.forEach((p) => {
     p.addEventListener("click", (e) => {
-
         var category = e.target.innerHTML;
+        if(category ==""){
+            return;
+        }
+        active_a_tag.classList.remove("active_a_tag")
+        active_a_tag = e.target;
+        e.target.classList.add("active_a_tag");
         if (category === "All") {
             return showData(arrayData);
         }
         else {
-
-            var filteredData = arrayData.filter((item) => {
+            filteredData = arrayData.filter((item) => {
                 return item.category === category;
             })
             return showData(filteredData)
@@ -182,7 +193,7 @@ listItems = document.querySelectorAll(".cart_box");
 const prevButton = document.getElementById("prev-button");
 console.log(listItems);
 
-const paginationLimit = 8;
+const paginationLimit = 12;
 console.log(listItems.length);
 
 pageCount = Math.ceil(listItems.length / paginationLimit);

@@ -3,7 +3,7 @@
 }
 
 .pagination-container {
-    width: 80%;
+    width: 100%;
     
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@
     cursor: pointer;
     height: 2.5rem;
     width: 2.5rem;
+    /* color: rgb(42, 42, 42); */
     border-radius: .2rem;
 }
 
@@ -31,6 +32,5 @@
 
 .pagination-number.active {
     color: #000000;
-    /* background: #0085b6; */
     border: 1px solid #000;
 }

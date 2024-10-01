@@ -114,14 +114,14 @@ section 2  */
 
 .page3 {
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     display: flex;
 
 
 
     .left {
         width: 20vw;
-        height: 200vh;
+        height: auto;
         padding-top: 4vw;
     }
 
@@ -130,25 +130,51 @@ section 2  */
         width: 80%;
         height: 80%;
 
-        p {
+        a {
             font-size: 1.1vw;
             margin-bottom: 1vw;
+            display: block;
             font-weight: 300;
             cursor: pointer;
         }
     }
-
+    .mavic_clk{
+        position: relative;
+        width:fit-content ;
+        ::after{
+            content: "";
+            width: 70%;
+            height: .5px;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        i{
+            font-size: 1.4vw;
+            font-weight: 100;
+        }
+    }
     .mavic_opt {
         width: auto;
         padding-left: .5vw;
         height: auto;
         display: none;
         background-color: #fff;
+        p{
+            color: grey;
+            font-size: 1vw;
+            font-weight: 300;
+            
+        }
 
     }
 
     .active_mavic_opt {
         display: block;
+    }
+    .active_a_tag{
+        font-weight: 600 !important;
     }
 
     /* right side */
