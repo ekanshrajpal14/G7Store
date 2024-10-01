@@ -211,3 +211,13 @@ document.querySelector(".menu_toggle_btn").addEventListener("click",function(){
     document.querySelector(".nav_links").classList.toggle("active_nav")
     document.querySelector(".menu_toggle_btn i").classList.toggle("ri-close-large-line");
 })
+
+
+var dropdown = document.querySelectorAll(".dropdown");
+
+dropdown.forEach((item)=>{
+    item.addEventListener("click",function(){
+        this.querySelector(".dropdown_items").classList.toggle("active_dropdown")
+        this.querySelector("i").classList.toggle("ri-arrow-drop-up-line")
+    })
+})

@@ -1,92 +1,104 @@
 @media screen and (max-width:600px) {
-    .main {
-        position: relative;
-        overflow-x: hidden;
+
+    .video {
+        width: 100%;
+        height: 72vh;
     }
 
-    nav {
-        height: 11vh;
+    .slides {
+        width: 100%;
+        height: 80vh;
     }
 
-    .navbar {
-        z-index: 99;
+    .swiper {
+        width: 100%;
+        height: 80vh;
     }
 
-    .logo {
-        width: 25vw;
-    }
+    /* page 3 optiobs */
 
-    .nav_links {
-        position: fixed;
+    .page3 {
         flex-direction: column;
-        right: -100%;
-        justify-content: start;
-        width: 70vw;
-        top: 11vh;
-        overflow-y: scroll;
-        transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
-        min-height: 89vh;
-        gap: 4vh;
-        background-color: rgb(255, 255, 255);
-    }
+        padding-top: 9vh;
 
+        .left {
+            width: 100vw;
+            height: 30vh;
+            overflow-y: scroll;
+            padding-top: 4vw;
+        }
 
+        .all_options {
+            margin-left: 4vw;
 
-    .nav_links.active_nav {
-        right: 0;
-    }
-
-    .nav_item i {
-        font-size: 6vw;
-    }
-
-    .nav_item {
-        /* z-index: -100; */
-        height: auto;
-    }
-
-    .dropdown {
-
-        flex-direction: column;
-
-        
-        .dropdown_items {
-            position: unset;
-            p {
-                font-size: 2.9vw;
+            a {
+                font-size: 5vw;
+                margin-bottom: 2vw;
             }
 
+            .active_mavic_opt {
+                margin-left: 2vw;
+            }
+        }
+
+
+        .right {
+            width: 100%;
+            padding: 3vw 5vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
         }
     }
-
-
-
-    .nav_item a {
-        font-size: 4.5vw;
-    }
-
-    .wtsapp_tele {
-        width: 30%;
-    }
-
-    .call_circle,
-    .call_circle1 {
-        width: 8.5vw;
-        height: 8.5vw;
-        font-size: 4.4vw;
-    }
-
-    .menu_toggle_btn {
-        display: flex;
+    
+    .all_carts {
+        gap: 3vw;
         align-items: center;
         justify-content: center;
-        width: 15%;
+        .cart_box {
+            width: 19vmax;
 
-        i {
-            font-size: 7vw;
-            color: #000;
+            .top_part {
+                width: 100%;
+                height: 20vh;
+            }
+
+            .bottom_part {
+                width: 100%;
+                min-height: 14vh;
+
+                .part1_bottom {
+
+                    h3 {
+                        font-size: 3.2vw;
+                    }
+
+                    p {
+                        font-size: 2vw;
+                        margin-top: 1vw;
+                    }
+
+                    .price {
+                        font-size: 2.3vw;
+                        margin: 2vw 0;
+                    }
+                }
+
+                .part2_bottom {
+                    a {
+                        font-size: 2.3vw;
+                        padding: 2.6vw 1.5vw;
+                        width: 120px;
+                    }
+
+                    .read_more {
+                        padding: 2.5vw 1.5vw;
+
+                    }
+                }
+            }
         }
-
     }
 
 }

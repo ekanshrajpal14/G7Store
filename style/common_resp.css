@@ -1,0 +1,101 @@
+@media screen and (max-width:600px) {
+    .main {
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: 11vh;
+    }
+
+    .navbar {
+        z-index: 99;
+    }
+
+    .logo {
+        width: 25vw;
+    }
+
+    .nav_links {
+        position: fixed;
+        flex-direction: column;
+        right: -100%;
+        justify-content: start;
+        width: 70vw;
+        top: 11vh;
+        overflow-y: scroll;
+        transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+        min-height: 89vh;
+        gap: 7vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .active_dropdown {
+        display: block;
+    }
+
+    .dropdown_items.more_bar {
+        min-width: 68vw;
+    }
+
+
+
+    .nav_links.active_nav {
+        right: 0;
+    }
+
+    .nav_item i {
+        font-size: 6vw;
+    }
+
+    .nav_item {
+        /* z-index: -100; */
+        height: auto;
+    }
+
+    .dropdown {
+
+        flex-direction: column;
+
+
+        .dropdown_items {
+            position: unset;
+
+            p {
+                font-size: 2.9vw;
+            }
+
+        }
+    }
+
+
+
+    .nav_item a {
+        font-size: 4.5vw;
+    }
+
+    .wtsapp_tele {
+        width: 30%;
+    }
+
+    .call_circle,
+    .call_circle1 {
+        width: 8.5vw;
+        height: 8.5vw;
+        font-size: 4.4vw;
+    }
+
+    .menu_toggle_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+
+        i {
+            font-size: 7vw;
+            color: #000;
+        }
+
+    }
+
+}

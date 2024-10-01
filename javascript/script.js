@@ -268,10 +268,14 @@ const setCurrentPage = (pageNum) => {
 
 prevButton.addEventListener("click", () => {
     setCurrentPage(currentPage - 1);
+    // scroll to the particular section 
+    document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
 });
 
 nextButton.addEventListener("click", () => {
     setCurrentPage(currentPage + 1);
+    document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
+
 });
 function paginationMainFun() {
     getPaginationNumbers(); //using for page numbers
@@ -280,9 +284,12 @@ function paginationMainFun() {
     document.querySelectorAll(".pagination-number").forEach((button) => {
         const pageIndex = Number(button.getAttribute("page-index"));
 
+
         if (pageIndex) {
             button.addEventListener("click", () => {
                 setCurrentPage(pageIndex);
+                document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
+
             });
         }
     });
