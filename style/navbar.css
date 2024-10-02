@@ -272,3 +272,7 @@ nav {
 .menu_toggle_btn{
     display: none;
 }
+.no_scroll{
+    overflow: hidden;
+    /* .avoid scrolling when menu opens */
+}

@@ -36,7 +36,7 @@
 
         .bottom_part {
             width: 100%;
-            min-height: 37vh;
+            height: calc( 100% - 30vh );
             display: flex;
             gap: 1vw;
             flex-direction: column;
@@ -46,18 +46,22 @@
             text-align: center;
 
             .part1_bottom {
+                /* height: max-content; */
                 h3 {
                     font-size: 1.2vw;
                     font-weight: 600;
+                    margin-bottom: .5vw;
+                    
                 }
 
                 p {
-                    font-size: 1vw;
+                    font-size: 14px;
                     color: #5a5a5a;
 
                 }
 
                 .price {
+                    margin-top: 1vw;
                     font-size: 1.3vw;
                     color: #000;
 

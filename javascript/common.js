@@ -210,6 +210,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.querySelector(".menu_toggle_btn").addEventListener("click",function(){
     document.querySelector(".nav_links").classList.toggle("active_nav")
     document.querySelector(".menu_toggle_btn i").classList.toggle("ri-close-large-line");
+    document.body.classList.toggle('no_scroll')
 })
 
 
