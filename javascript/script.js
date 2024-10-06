@@ -476,6 +476,23 @@ var arrayData = [
 
 
     // 28.Экшен-камеры
+    { name: "GoPro HERO12", price: "35 000 p", exPrice: "", desc: "Экшн-камера премиум-класса, выпущенная в сентябре 2022 года", category: "", pages: "" },
+    { name: "GoPro HERO11", price: "33 000 p", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "Экшн-камера DJI Osmo Action 4 Standard Combo", price: "38 000 p", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "Экшн-камера DJI Osmo Action 4 Adventure Combo", price: "50 000 p", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "Микрофон DJI Mic 2 (2 передатчика + 1 приёмник + зарядный кейс)", price: "35 000 p", exPrice: "", desc: "DJI Mic 2 – обновленную версию профессионального компактного микрофона, разработанного компанией DJI. Этот микрофон обеспечивает высококачественную запись звука в 32 бит с плавающей запятой и оснащен встроенной системой шумоподавления", category: "", pages: "" },
+    { name: "Стабилизатор DJI RS 3 Pro Combo", price: "110 000 p", exPrice: "", desc: "Стабилизатор со множеством креплений для съемки", category: "", pages: "" },
+    {
+        name: "GoPro HERO13", price: "49 999 p", exPrice: "", desc: "Экшн-камера GoPro HERO13 Black - это устройство, которое позволяет запечатлеть самые яркие моменты вашей жизни. С ее помощью вы сможете снимать видео в формате 5.3K и делать качественные фотографии с разрешением 24.7 мегапикселей.", category: "", pages: "" },
+    { name: "DJI Osmo Action 5 Pro (Standard Combo)", price: "50 000 p", exPrice: "", desc: "DJI Osmo Action 5 Pro Standard Combo — это экшн-камера с мощным 1/1,3″ сенсором, 4-нм процессором, улучшенной стабилизацией, 4-часовой батареей и двойными OLED-экранами, идеально подходящая для съемки в экстремальных условиях", category: "", pages: "" },
+
+    // 29.Air
+    { name: "DJI Air 2S Fly More Combo (Smart Controller)", price: "180 000 p", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и профессиональным пультом", category: "", pages: "" },
+    { name: "DJI Air 3", price: "140 000 p", exPrice: "", desc: "Дрон с камерой.", category: "", pages: "" },
+    { name: "DJI Air 3 Fly More Combo", price: "149 000 p", exPrice: "", desc: "Дрон с камерой и дополнительными аксессуарами.", category: "", pages: "" },
+
+    // 30.Agras
+    { name: "DJI Agras T40", price: "1 650 000 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей.", category: "", pages: "" },
     { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
@@ -492,7 +509,7 @@ arrayData.forEach((val) => {
     clutter += `<div class="cart_box" data-category="${val.category}" >
                                 <div class="top_part">
                                     <div class="image_cont">
-                                        <img src="../webp_img/${val.name}.webp"
+                                        <img src="./webp_img/${val.name}.webp"
                                             alt="">
                                     </div>
                                 </div>
@@ -535,7 +552,7 @@ function showData(myData) {
             newClutter += `<div class="cart_box" data-category="${val.category}" >
                                     <div class="top_part">
                                         <div class="image_cont">
-                                            <img src="../webp_img/${val.name}.webp"
+                                            <img src="./webp_img/${val.name}.webp"
                                                 alt="">
                                         </div>
                                     </div>

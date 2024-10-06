@@ -170,7 +170,7 @@ function pageNameData(pageName) {
             cluuter += `<div class="cart_box">
                         <div class="top_part">
                             <div class="image_cont">
-                                <img src="../webp_img/${data.name}.webp"
+                                <img src="./webp_img/${data.name}.webp"
                                     alt="">
                             </div>
                         </div>
