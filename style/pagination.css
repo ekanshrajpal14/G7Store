@@ -1,9 +1,16 @@
 .hidden {
     display: none;
 }
+.pagination_number_cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .pagination-container {
     width: 100%;
+    /* background-color: aqua; */
     
     display: flex;
     align-items: center;
@@ -11,7 +18,12 @@
     /* background-color: #0085b6; */
     justify-content: center;
 }
-
+/* #pagination-numbers{
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;   
+    justify-content: center;
+} */
 .pagination-number,
 .pagination-button {
     font-size: 1.1rem;
