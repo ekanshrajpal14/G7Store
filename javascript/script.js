@@ -678,14 +678,14 @@ var arrayData = [
     { name: "DJI Osmo Action 5 Pro (Standard Combo)", price: "50 000 р", exPrice: "", desc: "DJI Osmo Action 5 Pro Standard Combo — это экшн-камера с мощным 1/1,3″ сенсором, 4-нм процессором, улучшенной стабилизацией, 4-часовой батареей и двойными OLED-экранами, идеально подходящая для съемки в экстремальных условиях", category: "", pages: "" },
     { name: "DJI Zenmuse P1", price: "800 000 р", exPrice: "", desc: "Съемочная система Zenmuse P1 - это единая мощь полнокадровой матрицы, сменных объективов с фиксированным фокусом и подвеса с 3-осевой стабилизацией. Созданный для фотограмметрических полетов, он выводит эффективность и точность на совершенно новый уровень. Система была создана специально для выполнения фотограмметрии с борта дрона и обладает невероятной точностью и производительностью", category: "", pages: "" },
     { name: "Спутниковый интернет Старлинк Мини V5", price: "110 000 р", exPrice: "", desc: "Спутниковый интернет Старлинк Мини V5 - компактный портативный комплект, который легко помещается в рюкзак, высокоскоростной интернет с минимальной задержкой. Данный комплект является энергоэффективным решением для тех, кто нуждается в недорогом и доступном доступе к интернет", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
 
 ]
 
