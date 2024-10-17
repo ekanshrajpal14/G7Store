@@ -154,10 +154,10 @@ let currentPage = 1; //for pagination
 //     // Mavic 3 Cine
 //     { name: "DJI Mavic 3 Cine Premium Combo", price: "450 000 p", exPrice: "", desc: "Дрон DJI Mavic 3 Cine для профессиональной съёмки с аксессуарами.", category: "Mavic 3 Cine", pages: "mavic" },
 //     { name: "Mavic 3 Pro Cine Premium Combo", price: "460 000 p", exPrice: "", desc: "Дрон Mavic 3 Pro для профессиональной съёмки, аксессуарами, и профессиональным пультом.", category: "Mavic 3 Cine", pages: "mavic" },
-    
+
 //     //mavic 2 
 //     { name: "DJI Mavic 2 Enterprise Advanced", price: "444 000 p", exPrice: "", desc: "Дрон DJI Mavic 2 с тепловизором и аксессуарами", category: "Mavic 2", pages: "mavic" },
-   
+
 
 
 //     // MINI
@@ -350,7 +350,8 @@ var arrayData = [
 
     // avata combo
     {
-        name: "DJI Avata Pro-View Combo", price: "119 999 p", exPrice: "", desc: "FPV-дрон DJI Avata с дополнительными аксессуарами.", category: "", pages: "" },
+        name: "DJI Avata Pro-View Combo", price: "119 999 p", exPrice: "", desc: "FPV-дрон DJI Avata с дополнительными аксессуарами.", category: "", pages: ""
+    },
     { name: "DJI Avata Fly Smart Combo", price: "135 000 p", exPrice: "", desc: "FPV-дрон DJI Avata с дополнительными аксессуарами.", category: "", pages: "" },
     { name: "DJI Avata Explorer Combo", price: "116 000 p", exPrice: "", desc: "FPV-дрон с дополнительными аксессуарами.", category: "", pages: "" },
     { name: "DJI Avata Pro - View Combo (RC Motion 2)", price: "119 000 p", exPrice: "", desc: "Квадрокоптер DJI Avata Pro-View Combo с пультом нового поколения DJI RC Motion 2 и очками DJI Goggles 2", category: "", pages: "" },
@@ -364,7 +365,7 @@ var arrayData = [
     { name: "DJI Matrice 300 RTK + Zenmuse H20N (Combo)", price: "1 860 000 р", exPrice: "", desc: "Промышленный дрон DJI Matrice 300 RTK с камерой Zenmuse H20N, зарядной станцией, и двумя батареями в комплекте.", category: "", pages: "" },
     { name: "DJI Matrice 350 RTK + Zenmuse H20N (Combo)", price: "1 900 000 р", exPrice: "", desc: "Промышленный дрон DJI Matrice 350 RTK с камерой Zenmuse H20N, зарядной станцией, и двумя батареями в комплекте.", category: "", pages: "" },
     { name: "DJI Matrice 350 RTK", price: "1 050 000 p", exPrice: "", desc: "Промышленный дрон с камерой.", category: "", pages: "" },
-    { name: "Copy: DJI Matrice 350 RTK (Комплект)", price: "1 250 000 p", exPrice: "", desc: "Промышленный дрон с камерой.", category: "", pages: "" },
+    { name: "Copy DJI Matrice 350 RTK (Комплект)", price: "1 250 000 p", exPrice: "", desc: "Промышленный дрон с камерой.", category: "", pages: "" },
     { name: "DJI Matrice 30T", price: "599 000 p", exPrice: "", desc: "Промышленный дрон с тепловизором.", category: "", pages: "" },
     { name: "DJI Matrice 300 RTK", price: "1 300 000 p", exPrice: "", desc: "Промышленный дрон без камеры.", category: "", pages: "" },
     { name: "DJI Matrice 300 RTK + Zenmuse H20T (Combo)", price: "1 999 000 p", exPrice: "", desc: "Промышленный дрон с камерой, зарядной станцией, и двумя батареями в комплекте.", category: "", pages: "" },
@@ -375,8 +376,8 @@ var arrayData = [
     { name: "DJI Air 2S (RC-N1)", price: "99 000 p", exPrice: "", desc: "Дрон с камерой с пультом управления DJI RC-N1", category: "", pages: "" },
     { name: "DJI Air 2S Fly More Combo", price: "120 000 p", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и пультом", category: "", pages: "" },
     { name: "DJI Air 2S Fly More Combo (RC)", price: "140 000 p", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и пультом с экраном.", category: "", pages: "" },
-    { name: "DJI Air 2S Fly More Combo (Smart Controller)", price: "180 000 p", exPrice: "", desc: "", category: "", pages: "" },
-    { name: "Дрон с камерой, дополнительными аксессуарами, и профессиональным пультом.", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "DJI Air 2S Fly More Combo (Smart Controller)", price: "180 000 p", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и профессиональным пультом.", category: "", pages: "" },
+    // { name: "Дрон с камерой, дополнительными аксессуарами, и профессиональным пультом.", price: "", exPrice: "", desc: "", category: "", pages: "" },
 
 
 
@@ -409,7 +410,7 @@ var arrayData = [
     { name: "DJI Mini SE Controller MR1SD25", price: "6 500 p", exPrice: "", desc: "Пульт для Mini SE", category: "", pages: "" },
     { name: "Motion Controller", price: "16 900 p", exPrice: "", desc: "Пульт управления FPV.", category: "", pages: "" },
     { name: "Motion Controller 2", price: "20 500 p", exPrice: "", desc: "Пульт управления FPV.", category: "", pages: "" },
-   
+
 
     // 18.Батареи
     { name: "DJI Mavic 3 Intelligent Flight Battery (Батарея)", price: "19 500 p", exPrice: "", desc: "Батарея для DJI Mavic 3.", category: "", pages: "" },
@@ -421,8 +422,8 @@ var arrayData = [
     { name: "DJI Avata Battery (Батарея)", price: "19 500 p", exPrice: "", desc: "Батарея для DJI Avata", category: "", pages: "" },
     { name: "Smart Flight Battery для Autel Max 4T", price: "39 000 p", exPrice: "", desc: "", category: "", pages: "" },
     { name: "DJI Avata 2 Battery (Батарея)", price: "17 500 p", exPrice: "", desc: "Батарея для DJI Avata 2", category: "", pages: "" },
-    
-    
+
+
     // 19.Зарядные станции    
     { name: "DJI Mavic 3 Hub (Зарядная станция)", price: "3 500 p", exPrice: "", desc: "Зарядная станция (Хаб) для Mavic 3.", category: "", pages: "" },
     { name: "PowerBank для квадрокоптеров", price: "8 000 p", exPrice: "", desc: "Повербанк ёмкостью в 30000 mAH и мощностью в 100W.", category: "", pages: "" },
@@ -436,7 +437,8 @@ var arrayData = [
 
     // 20.Пропеллеры
     {
-        name: "Mavic 3 Low-Noise Propellers (Пропеллеры)", price: "3 500 p", exPrice: "", desc: "Малошумные пропеллеры для Mavic 3", category: "", pages: "" },
+        name: "Mavic 3 Low-Noise Propellers (Пропеллеры)", price: "3 500 p", exPrice: "", desc: "Малошумные пропеллеры для Mavic 3", category: "", pages: ""
+    },
     { name: "DJI Matrice 300 Propellers 2110 (Пропеллеры)", price: "13 500 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 300", category: "", pages: "" },
     { name: "Matrice 30/30T (Пропеллеры)", price: "13 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 30/30T", category: "", pages: "" },
 
@@ -483,7 +485,8 @@ var arrayData = [
     { name: "Микрофон DJI Mic 2 (2 передатчика + 1 приёмник + зарядный кейс)", price: "35 000 p", exPrice: "", desc: "DJI Mic 2 – обновленную версию профессионального компактного микрофона, разработанного компанией DJI. Этот микрофон обеспечивает высококачественную запись звука в 32 бит с плавающей запятой и оснащен встроенной системой шумоподавления", category: "", pages: "" },
     { name: "Стабилизатор DJI RS 3 Pro Combo", price: "110 000 p", exPrice: "", desc: "Стабилизатор со множеством креплений для съемки", category: "", pages: "" },
     {
-        name: "GoPro HERO13", price: "49 999 p", exPrice: "", desc: "Экшн-камера GoPro HERO13 Black - это устройство, которое позволяет запечатлеть самые яркие моменты вашей жизни. С ее помощью вы сможете снимать видео в формате 5.3K и делать качественные фотографии с разрешением 24.7 мегапикселей.", category: "", pages: "" },
+        name: "GoPro HERO13", price: "49 999 p", exPrice: "", desc: "Экшн-камера GoPro HERO13 Black - это устройство, которое позволяет запечатлеть самые яркие моменты вашей жизни. С ее помощью вы сможете снимать видео в формате 5.3K и делать качественные фотографии с разрешением 24.7 мегапикселей.", category: "", pages: ""
+    },
     { name: "DJI Osmo Action 5 Pro (Standard Combo)", price: "50 000 p", exPrice: "", desc: "DJI Osmo Action 5 Pro Standard Combo — это экшн-камера с мощным 1/1,3″ сенсором, 4-нм процессором, улучшенной стабилизацией, 4-часовой батареей и двойными OLED-экранами, идеально подходящая для съемки в экстремальных условиях", category: "", pages: "" },
 
     // 29.Air
@@ -493,6 +496,191 @@ var arrayData = [
 
     // 30.Agras
     { name: "DJI Agras T40", price: "1 650 000 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей.", category: "", pages: "" },
+    { name: "DJI Agras T30", price: "1 800 000 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Agras T50", price: "2 800 000 p", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Agras T20P", price: "2 600 000", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Agras T60", price: "2 999 999 p", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    {
+        name: "DJI Agras T25", price: "", exPrice: "", desc: "беспилотный летательный аппарат (БПЛА), разработанный специально для сельскохозяйственных операций", category: "", pages: ""
+    },
+    // price msiing in above
+
+    // 31.AeroScope
+    { name: "AeroScope Portable", price: "8 500 000 р", exPrice: "", desc: "Система мониторинга и отслеживания дронов DJI", category: "", pages: "" },
+    { name: "AeroScope H1L", price: "999 000 p", exPrice: "", desc: "", category: "", pages: "" },
+
+
+
+    // 32.Карты памяти
+    { name: "SD Карта памяти microSDXC UHS-I U3 Samsung EVO PLUS 256 ГБ", price: "4 000 р", exPrice: "", desc: "SD Карта памяти с быстрой передачей данных", category: "", pages: "" },
+    { name: "SD Карта памяти microSDXC UHS-I U3 Samsung EVO PLUS 128 ГБ", price: "3 000 p", exPrice: "", desc: "SD Карта памяти с быстрой передачей данных", category: "", pages: "" },
+    { name: "SD Карта памяти microSDXC UHS-I U3 Samsung EVO PLUS 512 ГБ", price: "8 900 p", exPrice: "", desc: "SD Карта памяти, с быстрой передачей данных и большим объемом", category: "", pages: "" },
+
+
+
+    // 33.Спутниковая связь для СВО
+    { name: "Спутниковая связь V3", price: "100 000 р", exPrice: "", desc: "Спутниковая связь V3 представляет современную спутниковую систему, она предназначена для обеспечения высокоскоростного интернета в любой точке мира", category: "", pages: "" },
+    { name: "Спутниковая связь V2", price: "90 000 p", exPrice: "", desc: "Спутниковая связь V2 представляет продвинутую спутниковую систему, она предназначенная для обеспечения высокоскоростного интернета в самых отдаленных уголках мира", category: "", pages: "" },
+    { name: "Спутниковый интернет Старлинк Мини V5", price: "110 000 p", exPrice: "", desc: "Спутниковый интернет Старлинк Мини V5 - компактный портативный комплект, который легко помещается в рюкзак, высокоскоростной интернет с минимальной задержкой. Данный комплект является энергоэффективным решением для тех, кто нуждается в недорогом и доступном доступе к интернет", category: "", pages: "" },
+
+
+    // /34.Квадракоптеры
+    {
+        name: "Mavic 3T Thermal (Aircraft)", price: "349 000 р", exPrice: "", desc: "Лучший ночной дрон для СВО, в данной комплектации только птичка ( тушка )то есть без батареи, без пульта и без кейса.есть и другие варианты этой модели", category: "", pages: ""
+    },
+    { name: "DJI Mavic 3T (Thermal) CN", price: "399 000 p", exPrice: "", desc: "Дрон DJI Mavic 3T (с тепловизором), подходит под СВО, для тех у кого есть возможность прошить", category: "", pages: "" },
+    { name: "DJI Mavic 3 Classic (RC)", price: "155 000 p", exPrice: "", desc: "Дрон DJI Mavic 3 с камерой и RC пультом", category: "", pages: "" },
+    { name: "DJI Agras T40", price: "1 650 000 p", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Mavic 2 Enterprise Advanced", price: "444 000 р", exPrice: "", desc: "Дрон DJI Mavic 2 с тепловизором и аксессуарами", category: "", pages: "" },
+    { name: "DJI Mavic 3 Release System BRDRC (Система сброса)", price: "3 800 p", exPrice: "", desc: "Система сброса для DJI Mavic 3", category: "", pages: "" },
+    { name: "DJI Avata 2 Fly More Combo", price: "95 000 p", exPrice: "", desc: "DJI Avata 2 - новый FPV-дрон. Avata 2 Fly more combo (RC Motion 3 + Goggles 3 + 1 Батарея)", category: "", pages: "" },
+    { name: "DJI Mavic 3 Classic (Aircraft)", price: "137 000 р", exPrice: "", desc: "Один дрон (DJI Mavic 3 Classic) с камерой", category: "", pages: "" },
+    { name: "DJI Agras T40", price: "1 650 000 p", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Mavic 2 Enterprise Advanced", price: "444 000 p", exPrice: "", desc: "Дрон DJI Mavic 2 с тепловизором и аксессуарами", category: "", pages: "" },
+    { name: "DJI Mavic 3 Release System BRDRC (Система сброса)", price: "3 800 р", exPrice: "", desc: "Система сброса для DJI Mavic 3", category: "", pages: "" },
+    { name: "DJI Avata 2 Fly More Combo", price: "95 000 р", exPrice: "", desc: "DJI Avata 2 - новый FPV-дрон. Avata 2 Fly more combo (RC Motion 3 + Goggles 3 + 1 Батарея)", category: "", pages: "" },
+    {
+        name: "DJI Mavic 3 Classic (Aircraft)", price: "137 000 p", exPrice: "", desc: "Один дрон (DJI Mavic 3 Classic) с камерой", category: "", pages: ""
+    },
+    { name: "DJI Avata 2 Fly More Combo (3 Батареи)", price: "109 000 p", exPrice: "", desc: "Avata 2 — это совершенный FPV-дрон. Avata 2 Fly more combo (RC Motion 3 + Goggles 3 + 3 Батареи)", category: "", pages: "" },
+    { name: "DJI Air 3 Fly More Combo (RC 2)", price: "155 000 р", exPrice: "", desc: "Квадрокоптер DJI Air 3 с дополнительными аксессуарами, и пультом с экраном", category: "", pages: "" },
+    { name: "DJI Mavic 3 Enterprise", price: "310 000 р", exPrice: "", desc: "Промышленный дрон DJI Mavic 3 Enterprise", category: "", pages: "" },
+    { name: "DJI Mavic 3 Fly More Combo", price: "260 000 р", exPrice: "", desc: "Дрон DJI Mavic 3 с камерой и аксессуарами", category: "", pages: "" },
+    { name: "DJI Matrice 30T Combo", price: "670 000 р", exPrice: "", desc: "Промышленный дрон с тепловизором и дополнительными аксессуарами", category: "", pages: "" },
+    { name: "DJI Mavic 3 Pro Fly More Combo (RC Pro)", price: "360 000 p", exPrice: "", desc: "Дрон DJI Mavic 3 Pro с камерой, аксессуарами, и профессиональным пультом", category: "", pages: "" },
+    { name: "DJI Matrice 350 RTK + Zenmuse H20T (Combo)", price: "1 850 000 р", exPrice: "", desc: "Промышленный дрон DJI Matrice 350 RTK с камерой Zenmuse H20T, зарядной станцией, и двумя батареями в комплекте", category: "", pages: "" },
+    { name: "DJI Matrice 300 RTK + Zenmuse H20N (Combo)", price: "1 860 000 р", exPrice: "", desc: "Промышленный дрон DJI Matrice 300 RTK с камерой Zenmuse H20N, зарядной станцией, и двумя батареями в комплекте", category: "", pages: "" },
+    { name: "DJI Mavic 3 Cine Premium Combo", price: "450 000 р", exPrice: "", desc: "Дрон DJI Mavic 3 Cine для профессиональной съёмки с аксессуарами", category: "", pages: "" },
+    { name: "DJI Matrice 350 RTK + Zenmuse H20N (Combo)", price: "1 900 000 р", exPrice: "", desc: "Промышленный дрон DJI Matrice 350 RTK с камерой Zenmuse H20N, зарядной станцией, и двумя батареями в комплекте", category: "", pages: "" },
+    { name: "DJI Matrice 350 RTK", price: "1 050 000 р", exPrice: "", desc: "Промышленный дрон с камерой", category: "", pages: "" },
+    { name: "Copy DJI Matrice 350 RTK (Комплект)", price: "1 250 000 р", exPrice: "", desc: "Промышленный дрон с камерой.", category: "", pages: "" },
+    { name: "DJI Mini 4 Pro (DJI RC-N2)", price: "90 000 р", exPrice: "", desc: "Новый Мини-дрон DJI Mini 4 Pro с отличной камерой и пультом RC-N2", category: "", pages: "" },
+    { name: "DJI Mavic 3", price: "190 999 p", exPrice: "", desc: "Дрон DJI Mavic 3 с камерой", category: "", pages: "" },
+    { name: "DJI Mavic 3 (Aircraft)", price: "165 000 p", exPrice: "", desc: "Дрон Mavic 3 (Aircraft) с камерой.", category: "", pages: "" },
+    { name: "DJI Mini 4 Pro Fly More Combo (DJI RC 2)", price: "110 000 p", exPrice: "", desc: "Новый Мини-дрон Mini 4 Pro с отличной камерой, пультом RC-2 и комплектом комбо", category: "", pages: "" },
+    { name: "DJI Mavic 3 Fly More Combo (RC Pro)", price: "370 000 р", exPrice: "", desc: "Дрон DJI Mavic 3 с камерой, аксессуарами, и профессиональным пультом RC Pro", category: "", pages: "" },
+    { name: "DJI Mavic 3T Thermal Worry-Free Plus Combo", price: "525 000 p", exPrice: "", desc: "Дрон DJI Mavic 3T Thermal с тепловизором, аксессуарами, RTK, и профессиональным пультом", category: "", pages: "" },
+    { name: "DJI Mavic 3 Classic", price: "165 999 р", exPrice: "", desc: "Дрон DJI Mavic 3 Classic с камерой", category: "", pages: "" },
+    { name: "DJI Avata (Без RC)", price: "65 000 р", exPrice: "", desc: "FPV-дрон DJI Avata без контроллеров управления", category: "", pages: "" },
+    { name: "DJI Avata Pro-View Combo", price: "119 999 p", exPrice: "", desc: "FPV-дрон DJI Avata с дополнительными аксессуарами", category: "", pages: "" },
+    { name: "DJI Avata Fly Smart Combo", price: "135 000 p", exPrice: "", desc: "FPV-дрон DJI Avata с дополнительными аксессуарами", category: "", pages: "" },
+    { name: "DJI Mini 3 Pro (RC)", price: "95 900 р", exPrice: "", desc: "Мини-дрон DJI Mini 3 Pro с камерой и пультом RC", category: "", pages: "" },
+    { name: "DJI Mini 3 Pro", price: "90 000 p", exPrice: "", desc: "Дрон DJI Mini 3 Pro с камерой", category: "", pages: "" },
+    { name: "DJI Mini 3 Pro (Без RC)", price: "88 000 p", exPrice: "", desc: "Дрон DJI Mini 3 Pro с камерой без пультов управления", category: "", pages: "" },
+    { name: "DJI Mini 3 Pro Fly More Combo Plus", price: "122 000 p", exPrice: "", desc: "Дрон DJI Mini 3 Pro с камерой и аксессуарами", category: "", pages: "" },
+    { name: "DJI Mini 3 Pro Fly More Combo Plus (RC)", price: "135 000 p", exPrice: "", desc: "Мини-дрон с камерой и аксессуарами", category: "", pages: "" },
+    { name: "DJI Mini 3 Fly More Combo (RC)", price: "110 990 р", exPrice: "", desc: "Мини-дрон с камерой и аксессуарами", category: "", pages: "" },
+    { name: "DJI Mini 3 Fly More Combo", price: "99 000 p", exPrice: "", desc: "Мини-дрон с камерой и аксессуарами", category: "", pages: "" },
+    { name: "DJI Mavic 3 Multispectral", price: "499 000 p", exPrice: "", desc: "Дрон DJI Mavic 3 Multispectral сельского назначения с мультиспектральной камерой", category: "", pages: "" },
+    { name: "DJI Matrice 30T", price: "599 000 р", exPrice: "", desc: "Промышленный дрон с тепловизором", category: "", pages: "" },
+    { name: "DJI FPV Combo", price: "130 000 р", exPrice: "", desc: "FPV-дрон с дополнительными аксессуарами", category: "", pages: "" },
+    { name: "Phantom 4 Pro V2.0", price: "280 000 p", exPrice: "", desc: "Дрон с камерой", category: "", pages: "" },
+    { name: "Phantom 4 Pro Plus V2.0", price: "320 000 p", exPrice: "", desc: "Дрон с камерой", category: "", pages: "" },
+    { name: "DJI Avata Explorer Combo", price: "116 000 p", exPrice: "", desc: "FPV-дрон с дополнительными аксессуарами", category: "", pages: "" },
+    { name: "DJI Air 2S (RC-N1)", price: "99 000 р", exPrice: "", desc: "Дрон с камерой с пультом управления DJI RC-N1", category: "", pages: "" },
+    { name: "DJI Air 2S Fly More Combo", price: "120 000 р", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и пультом", category: "", pages: "" },
+    { name: "DJI Air 2S Fly More Combo (RC)", price: "140 000 р", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и пультом с экраном", category: "", pages: "" },
+    { name: "DJI Air 2S Fly More Combo (Smart Controller)", price: "180 000 p", exPrice: "", desc: "Дрон с камерой, дополнительными аксессуарами, и профессиональным пультом", category: "", pages: "" },
+    { name: "DJI Air 3", price: "140 000 p", exPrice: "", desc: "Дрон с камерой", category: "", pages: "" },
+    { name: "DJI Air 3 Fly More Combo", price: "149 000 p", exPrice: "", desc: "Дрон с камерой и дополнительными аксессуарами", category: "", pages: "" },
+    { name: "DJI Agras T30", price: "1 800 000 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Agras T50", price: "2 800 000 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Agras T20P", price: "2 600 000 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Matrice 300 RTK", price: "1 300 000 p", exPrice: "", desc: "Промышленный дрон без камеры", category: "", pages: "" },
+    { name: "DJI Matrice 300 RTK + Zenmuse H20T (Combo)", price: "1 999 000 р", exPrice: "", desc: "Промышленный дрон с камерой, зарядной станцией, и двумя батареями в комплекте", category: "", pages: "" },
+    { name: "DJI Avata 2", price: "60 000 р", exPrice: "", desc: "DJI Avata 2 - воплощение скорости и свободы. FPV-дрон от DJI. Один дрон", category: "", pages: "" },
+    {
+        name: "DJI Mini 3 Pro Fly More Kit Plus", price: "31 000 р", exPrice: "", desc: "Набор аксессуаров для Mini 3", category: "", pages: ""
+    },
+    { name: "DJI Mini 4 Pro Fly More Combo Plus (DJI RC 2)", price: "115 000 р", exPrice: "", desc: "Новый Мини-дрон с отличной камерой и комплектом комбо", category: "", pages: "" },
+    { name: "DJI Avata Pro - View Combo (RC Motion 2)", price: "119 000 р", exPrice: "", desc: "Квадрокоптер DJI Avata Pro-View Combo с пультом нового поколения DJI RC Motion 2 и очками DJI Goggles 2", category: "", pages: "" },
+    { name: "DJI Mini 4 Pro ( DJI Rc 2)", price: "93 000 p", exPrice: "", desc: "Новый Мини-дрон с отличной камерой", category: "", pages: "" },
+    {
+        name: "DJI Mini SE", price: "69 000 р", exPrice: "", desc: "DJI Mini SE — компактный и высокотехнологичный спутник на вашем творческом пути.СНЯТ С ПРОИЗВОДСТВА", category: "", pages: ""
+    },
+    { name: "DJI Mini SE Fly More Combo", price: "83 000 р", exPrice: "", desc: "DJI Mini SE Fly More Combo - Мини-дрон с камерой и набором аксессуаров", category: "", pages: "" },
+    { name: "DJI Matrice 3D", price: "1 000 000 р", exPrice: "", desc: "DJI Matrice 3D— это новейшая серия всепогодных корпоративных дронов", category: "", pages: "" },
+    { name: "DJI Matrice 3TD", price: "1 500 000 p", exPrice: "", desc: "DJI Matrice 3TD— это новейшая серия всепогодных корпоративных дронов", category: "", pages: "" },
+    { name: "DJI Agras T60", price: "2 999 999 р", exPrice: "", desc: "Дрон сельского назначения для обработки полей", category: "", pages: "" },
+    { name: "DJI Matrice 350 RTK + Zenmuse H30T (Combo)", price: "2 300 000 р", exPrice: "", desc: "Промышленный дрон - DJI Matrice 350 RTK с камерой Zenmuse H30T, зарядной станцией, и двумя батареями в комплекте", category: "", pages: "" },
+    { name: "DJI Matrice 350 RTK + Zenmuse H30 (Combo)", price: "1 900 000 р", exPrice: "", desc: "Промышленный дрон - DJI Matrice 350 RTK с камерой Zenmuse H30, зарядной станцией, и двумя батареями в комплекте", category: "", pages: "" },
+    { name: "DJI Mavic 3 Enterprise (Aircraft)", price: "299 999 р", exPrice: "", desc: "Промышленный дрон DJI Mavic 3 Enterprise", category: "", pages: "" },
+    {
+        name: "DJI Neo", price: "40 000 р", exPrice: "", desc: "квадрокоптер dji NEO – идеальное решение для любителей аэрофотосъемки и профессионалов. Дрон для аэрофотосъемки обладает всем, что нужно для создания невероятных аэрофотографий и видеосъемки", category: "", pages: ""
+    },
+    { name: "DJI Neo (Fly More Combo)", price: "60 000 р", exPrice: "", desc: "Combo версия включает в себя три интеллектуальных летных батареи, двухсторонний зарядный концентратор и многое другое", category: "", pages: "" },
+    { name: "DJI Mavic 3T Thermal (Гражданская версия)", price: "430 000 р", exPrice: "", desc: "Дрон DJI Mavic 3T Thermal с тепловизором - предназначен для гражданских целей. Поставляется совместно с аксессуарами, и профессиональным пультом", category: "", pages: "" },
+    { name: "DJI Mavic 3 Enterprise (Гражданская версия)", price: "330 000 р", exPrice: "", desc: "DJI Mavic 3 Enterprise (Гражданская версия) – это дрон, специально созданный для гражданских целей. Его уникальная прошивка снимает все ограничения DJI, включая запреты на полеты в зонах, таких как территория РФ. Это делает его идеальным для инспекций, поисково-спасательных операций и других гражданских задач.", category: "", pages: "" },
+
+
+    // 35.Роботы собаки
+    { name: "Unitree Go2 Air (Робот собака)", price: "199 000 р", exPrice: "", desc: "Робопес Unitree Go 2 Air — умный и мощный помощник, оснащенный 3D-лидаром, HD-камерой и продвинутыми функциями навигации", category: "", pages: "" },
+    { name: "Unitree Go2 Pro (Робот собака)", price: "358 000 р", exPrice: "", desc: "Unitree Go2 Pro - представляет новую роботизированную продвинутую собаку второго поколения от компании Unitree с лидаром GPT (ИИ) и множеством различных функций", category: "", pages: "" },
+    { name: "Unitree Go1 Pro (Робот собака)", price: "379 000 р", exPrice: "", desc: "Unitree Go1 Pro (Робот собака) - представляет новую роботизированную продвинутую собаку второго поколения от компании Unitree с лидаром GPT (ИИ) и множеством различных функций", category: "", pages: "" },
+    { name: "CyberDog 2 (Робот собака)", price: "290 000 р", exPrice: "", desc: "Уникальный четвероногий робот от Xiaomi, который открывает новую эру в области робототехники и взаимодействия человека с машинами", category: "", pages: "" },
+    { name: "CyberDog (Робот собака)", price: "499 000 р", exPrice: "", desc: "Купите CyberDog (Робот собака) CyberDog — робопёс от Xiaomi с модулем Jetson Xavier NX от Nvidia, 11 датчиками, камерами и микрофонами. С бесплатной доставкой!", category: "", pages: "" },
+
+
+    // 36.Прицелы и монокуляры
+    { name: "Коллиматор Holosun HS510C", price: "45 000 p", exPrice: "", desc: "Коллиматорный прицел Holosun HS510C имеет компактные размеры, водонепроницаемость IP67 и двойное питание — от аккумулятора или солнечной батареи. Он обеспечивает до 200 000 часов работы и включает встроенный лазерный целеуказатель", category: "", pages: "" },
+    { name: "Коллиматор Holosun Micro HS403B", price: "25 000 р", exPrice: "", desc: "Коллиматор Holosun Micro HS403B - является компактным коллиматорным прицелом с красной точкой. Имеет 2 кронштейна в комплекте (низкий и высокий) для установки на планку Weaver/Piсatinny. Прицел может быть установлен на различных видах оружия: ружьях, пистолетах, карабинах, пневматических винтовках и арбалетах", category: "", pages: "" },
+    { name: "Коллиматор Holosun HS403R", price: "30 000 р", exPrice: "", desc: "Коллиматорный прицел Holosun 2 MOA (HS403R) отличается новой системой изменения яркости прицельной марки поворотом бокового барабана", category: "", pages: "" },
+    { name: "Прицел тепловизионный Arkon II ST25", price: "82 000 p", exPrice: "", desc: "Тепловизионный прицел Arkon Alfa II ST25 подойдет для охоты, охраны объекта или территории", category: "", pages: "" },
+    { name: "Прицел тепловизионный Arkon Alfa LT35", price: "194 000 р", exPrice: "", desc: "Прицел Arkon ALFA LT35 - является отличным выбором для охотников, благодаря его высокому качеству изготовления, передовым технологиям и многообразию возможностей, которые он предлагает", category: "", pages: "" },
+    { name: "Тепловизионный монокуляр ARKON Ovis II SM25", price: "60 000 р", exPrice: "", desc: "Тепловизионный монокуляр OVis II SM25 предназначен для наблюдений в сложных условиях видимости. Он идеально подходит для быстрого поиска объектов на расстоянии до 1180 метров и рекомендован для использования в охоте, охране и спасательных операциях", category: "", pages: "" },
+    { name: "Тепловизионный монокуляр ARKON OVis II SM10", price: "40 000 р", exPrice: "", desc: "ARKON OVis II SM 10 – компактный тепловизионный монокуляр, созданный для работы в условиях ограниченной видимости на коротких дистанциях", category: "", pages: "" },
+    { name: "Тепловизионный монокуляр Arkon Ovis II SM 15", price: "49 000 p", exPrice: "", desc: "Тепловизионный монокуляр Arkon OVis II SM 15 - новинка 2023 года! Модель получила целый ряд инновационных решений и улучшений", category: "", pages: "" },
+    { name: "Тепловизионный монокуляр Arkon Ovis II LM35", price: "89 000 р", exPrice: "", desc: "Тепловизионный монокуляр ARKON OVis II LM35 — это инновационный прибор, предназначенный для эффективного поиска и наблюдения в условиях ограниченной видимости, обеспечивающий высококачественное изображение и надежную работу в экстремальных условиях", category: "", pages: "" },
+    { name: "Прицел тепловизионный Fortuna General 50L3s", price: "199 500 р", exPrice: "", desc: "Fortuna General 50L3S – обновленный тепловизионный прицел 2023 года с мощной оптикой и европейским сенсором Ulis", category: "", pages: "" },
+    { name: "Тепловизионный монокуляр Guide TD631 LRF", price: "140 000 р", exPrice: "", desc: "Тепловизионный монокуляр с лазерным дальномером Guide TD431 LRF - это тепловизор с 35-мм германиевым объективом из линейки бюджетного уровня", category: "", pages: "" },
+    { name: "Прицел тепловизионный GUIDE TR450", price: "140 000 р", exPrice: "", desc: "Тепловизионный прицел Guide TR450 — это современный тепловизионный прицел, который станет оптимальным решением для стрельбы в суровых погодных условиях и при полном отсутствии освещения", category: "", pages: "" },
+    { name: "Прицел тепловизионный Fortuna General 50L3", price: "299 000 p", exPrice: "", desc: "Fortuna General 50L3 — это высокоточный тепловизионный прицел с мощным объективом и передовым сенсором, обеспечивающий дальность обнаружения до 1100 метров и устойчивую работу в экстремальных условиях", category: "", pages: "" },
+    { name: "Прицел тепловизионный Venox Patriot LRF v2.0", price: "385 000 р", exPrice: "", desc: "Venox Patriot LRF 2.0 - прицел тепловизионный предназначен для наблюдения и ведения стрельбы на различные дистанции (дальность распознавания объектов доходит до 2800 метров) в любых погодных условиях независимо от освещения", category: "", pages: "" },
+    { name: "Прицел тепловизионный Venox Patriot 640 LRF", price: "505 000 р", exPrice: "", desc: "Venox Patriot LRF - тепловизионный прицел предназначен для наблюдения и ведения стрельбы на различные дистанции (дальность распознавания объектов доходит до 2000 метров) в любых погодных условиях независимо от освещения", category: "", pages: "" },
+    { name: "Прицел тепловизионный Guide TR650", price: "145 000 р", exPrice: "", desc: "Тепловизионный прицел для охоты Guide TR 650 – это технологичная новинка в сфере ночного наблюдения и атрибутики охотников. Прицел, обладающий высокой чувствительностью к тепловому излучению, объединил в себе новейшие технологии и великолепные характеристики", category: "", pages: "" },
+    {
+        name: "Лазерный дальномер Guide S600LRF для прицелов серии TR", price: "35 000 р", exPrice: "", desc: "Лазерный дальномер Guide S600LRF предназначен для установки на тепловизионные прицелы Guide серии TR.Дальномер крепится к прицелу с помощью стандартной планки Picatinny и обеспечивает точное определение дистанции до наблюдаемого объекта в диапазоне от 5 до 600 метров", category: "", pages: ""
+    },
+    { name: "Тепловизионный бинокль iRay Bino BH50 с дальномером", price: "320 000 р", exPrice: "", desc: "Тепловизионный бинокль iRay Bino BH 50 с лазерным дальномером спроектирован с учетом комфортной и надежной эксплуатации в самых экстремальных погодных условиях и в любое время суток. Высокая детализация изображения, длительная автономность, герметичный корпус и множество функций обеспечивают эффективное наблюдение за местностью", category: "", pages: "" },
+    { name: "Тепловизионный бинокль Guide Тн650 с дальномером", price: "210 000 р", exPrice: "", desc: "Тепловизионный бинокль GUIDE TN650 с лазерным дальномером — это премиальный тепловизор для наблюдения исполненный в форме классического бинокля. GUIDE TN650 удобно держать в руках, изображение при наблюдении оказывается более стабильным по сравнению с использованием тепловизора в форм факторе монокуляра", category: "", pages: "" },
+    { name: "Прицел тепловизионный Venox Patriot 640 LRF 2.0", price: "457 600 р", exPrice: "", desc: "Тепловизионный прицел Venox Patriot 640 LRF 2.0 - обнаруживает цели на расстоянии до 2800 м и оснащен лазерным дальномером. Он поддерживает фото- и видеозапись, работает до 8 часов и идеально подходит для охоты в любых условиях", category: "", pages: "" },
+
+
+    // 37.Новинки & Спецпредложения
+    { name: "Copy DJI Matrice 350 RTK (Комплект)", price: "1 250 000 p", exPrice: "", desc: "Промышленный дрон с камерой.", category: "", pages: "" },
+    { name: "DJI Mini 4K", price: "55 000 p", exPrice: "", desc: "DJI Mini 4K – компактный дрон весом менее, он идеально подходит для записи долгих путешествий и создания впечатляющих кадров.", category: "", pages: "" },
+    { name: "DJI Mini 4K (Fly More Combo)", price: "85 000 р", exPrice: "", desc: "Расширенный набор Fly More Combo DJI Mini 4K – компактный дрон весом менее, он идеально подходит для записи долгих путешествий и создания впечатляющих кадров", category: "", pages: "" },
+    { name: "Прицел тепловизионный Fortuna General 50L3s", price: "199 500 р", exPrice: "", desc: "Fortuna General 50L3S – обновленный тепловизионный прицел 2023 года с мощной оптикой и европейским сенсором Ulis", category: "", pages: "" },
+    { name: "Autel EVO Lite 640T Enterprise (Standart Combo)", price: "380 000 р", exPrice: "", desc: "EVO Lite 640T Enterprise — легкий дрон с двойной стабилизацией и AI-распознаванием целей. Обеспечивает четкие изображения и безопасный полет", category: "", pages: "" },
+    { name: "Тепловизионный монокуляр Guide TD631 LRF", price: "140 000 р", exPrice: "", desc: "Тепловизионный монокуляр с лазерным дальномером Guide TD431 LRF - это тепловизор с 35-мм германиевым объективом из линейки бюджетного уровня", category: "", pages: "" },
+    { name: "Автомобильный подавитель РЭБ «Ромашка» (8-ми канальная)", price: "370 000 р", exPrice: "", desc: "Подавитель дронов на автомобиль от FPV (ФПВ) дронов. Блокиратор дронов с восьмью каналами", category: "", pages: "" },
+    { name: "Наушники для БУЛАТ V4", price: "2 000 р", exPrice: "", desc: "Наушники для БУЛАТ V4 - это специализированная гарнитура предназначенная для парной работы с детектором дронов. Они позволяют воспринимать аудиоисточник в частном порядке, в отличие от громкоговорителя", category: "", pages: "" },
+    { name: "Прицел тепловизионный GUIDE TR450", price: "140 000 р", exPrice: "", desc: "Тепловизионный прицел Guide TR450 — это современный тепловизионный прицел, который станет оптимальным решением для стрельбы в суровых погодных условиях и при полном отсутствии освещения", category: "", pages: "" },
+    { name: "DJI Mavic 3 Enterprise (Aircraft)", price: "299 999 р", exPrice: "", desc: "Промышленный дрон DJI Mavic 3 Enterprise", category: "", pages: "" },
+    { name: "Прицел тепловизионный Fortuna General 50L3", price: "299 000 р", exPrice: "", desc: "Fortuna General 50L3 — это высокоточный тепловизионный прицел с мощным объективом и передовым сенсором, обеспечивающий дальность обнаружения до 1100 метров и устойчивую работу в экстремальных условиях", category: "", pages: "" },
+    {
+        name: "DJI Neo", price: "40 000 р", exPrice: "", desc: "квадрокоптер dji NEO – идеальное решение для любителей аэрофотосъемки и профессионалов. Дрон для аэрофотосъемки' обладает всем, что нужно для создания невероятных аэрофотографий и видеосъемки", category: "", pages: "" },
+    { name: "DJI Neo (Fly More Combo)", price: "60 000 р", exPrice: "", desc: "Combo версия включает в себя три интеллектуальных летных батареи, двухсторонний зарядный концентратор и многое другое", category: "", pages: "" },
+    { name: "Прицел тепловизионный Venox Patriot 640 LRF", price: "505 000 р", exPrice: "", desc: "Venox Patriot LRF - тепловизионный прицел предназначен для наблюдения и ведения стрельбы на различные дистанции (дальность распознавания объектов доходит до 2000 метров) в любых погодных условиях независимо от освещения", category: "", pages: "" },
+    { name: "Часы «Таир» к детектору «Булат» V4", price: "25 000 р", exPrice: "", desc: "Часы «Таир» - это устройство индивидуального оповещения к детектору БПЛА «Булат» V4", category: "", pages: "" },
+    { name: "Прицел тепловизионный Guide TR650", price: "145 000 р", exPrice: "", desc: "Тепловизионный прицел для охоты Guide TR 650 – это технологичная новинка в сфере ночного наблюдения и атрибутики охотников. Прицел, обладающий высокой чувствительностью к тепловому излучению, объединил в себе новейшие технологии и великолепные характеристики", category: "", pages: "" },
+    { name: "Лазерный дальномер Guide S600LRF для прицелов серии TR", price: "35 000 р", exPrice: "", desc: "Лазерный дальномер Guide S600LRF предназначен для установки на тепловизионные прицелы Guide серии TR Дальномер крепится к прицелу с помощью стандартной планки Picatinny и обеспечивает точное определение дистанции до наблюдаемого объекта в диапазоне от 5 до 600 метров", category: "", pages: "" },
+    {
+        name: "GoPro HERO13", price: "49 999 p", exPrice: "", desc: "Экшн-камера GoPro HERO13 Black - это устройство, которое позволяет запечатлеть самые яркие моменты вашей жизни. С ее помощью вы сможете снимать видео в формате 5.3K и делать качественные фотографии с разрешением 24.7 мегапикселей.", category: "gopro", pages: ""
+    }, 
+    { name: "Тепловизионный бинокль iRay Bino BH50 с дальномером", price: "320 000 р", exPrice: "", desc: "Тепловизионный бинокль iRay Bino BH 50 с лазерным дальномером спроектирован с учетом комфортной и надежной эксплуатации в самых экстремальных погодных условиях и в любое время суток. Высокая детализация изображения, длительная автономность, герметичный корпус и множество функций обеспечивают эффективное наблюдение за местностью", category: "", pages: "" },
+    { name: "Тепловизионный бинокль Guide Тн650 с дальномером", price: "210 000 р", exPrice: "", desc: "Тепловизионный бинокль GUIDE TN650 с лазерным дальномером — это премиальный тепловизор для наблюдения исполненный в форме классического бинокля. GUIDE TN650 удобно держать в руках, изображение при наблюдении оказывается более стабильным по сравнению с использованием тепловизора в форм факторе монокуляра", category: "", pages: "" },
+    { name: "Хаб для заряда 3х аккмуляторов DJI Mini 3 Pro / 4 Pro Two-Way Charging Hub", price: "10 000 р", exPrice: "", desc: "Two-Way Charging Hub - Это двухсторонний зарядный концентратор, который может одновременно заряжать пульт управления и три батареи. Его можно использовать как мобильный источник питания и для удобного хранения  батарей. С помощью зарядного устройства DJI USB-C мощностью 30 Вт три батареи DJI Mini 3 Pro заряжаются полностью за три часа, что значительно повышает эффективность зарядки", category: "", pages: "" },
+    { name: "Мобильная станция D-RTK 2 High Precision GNSS + трипод", price: "550 000 р", exPrice: "", desc: "Мобильная станция высокой точности D-RTK 2 High Precision GNSS. Обладает глобальными возможностями, поддерживая сразу 4 спутниковых системы навигации и принимая сигналы с 11 спутников. Трипод в комплекте", category: "", pages: "" },
+    { name: "DJI Mavic 3T Thermal (Гражданская версия)", price: "430 000 р", exPrice: "", desc: "Дрон DJI Mavic 3T Thermal с тепловизором - предназначен для гражданских целей. Поставляется совместно с аксессуарами, и профессиональным пультом.", category: "", pages: "" },
+    { name: "Прицел тепловизионный Venox Patriot 640 LRF 2.0", price: "457 600 р", exPrice: "", desc: "Тепловизионный прицел Venox Patriot 640 LRF 2.0 - обнаруживает цели на расстоянии до 2800 м и оснащен лазерным дальномером. Он поддерживает фото- и видеозапись, работает до 8 часов и идеально подходит для охоты в любых условиях", category: "", pages: "" },
+    { name: "«Капюшон» К-15 ВИП", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
@@ -595,6 +783,8 @@ pTag.forEach((p) => {
         category = e.target.getAttribute("data-option");
         var moreOpt = ""
         moreOpt = e.target.getAttribute("data-moreOptions");
+
+
 
         if (moreOpt.toLowerCase() != "") {
 
