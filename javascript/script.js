@@ -401,7 +401,7 @@ var arrayData = [
 
     // 17.Пульты
     { name: "DJI FPV Remote Controller 3", price: "22 500 p", exPrice: "", desc: "Усовершенственный пульт для Avata 2 от DJI с интегрированной антенной, легким весом и продолжительным временем работы. В комплекте идут доп.стики (пара)", category: "", pages: "" },
-    { name: "Alientech DUO II ( для пульта RC PRO)", price: "58 500 p", exPrice: "", desc: "Усилитель сигнала Alientech DUO II ( для пульта RC PRO)", category: "", pages: "" },
+    { name: "Alientech DUO 2( для пульта RC PRO)", price: "58 500 p", exPrice: "", desc: "Усилитель сигнала Alientech DUO II ( для пульта RC PRO)", category: "", pages: "" },
     { name: "DJI RC", price: "13 500 p", exPrice: "", desc: "Пульт с экраном. DJI Remote Controller (RC)", category: "", pages: "" },
     { name: "DJI RC Pro", price: "89 000 p", exPrice: "", desc: "Профессиональный пульт с экраном.", category: "", pages: "" },
     { name: "DJI RC Plus", price: "180 000 p", exPrice: "", desc: "Влагозащитный и ударопрочный профессиональный пульт с экраном.", category: "", pages: "" },
@@ -433,14 +433,14 @@ var arrayData = [
     { name: "Оригинальное автомобильное зарядное устройство DJI (65 Вт)", price: "3 900 p", exPrice: "", desc: "Заряжайте свои дроны DJI быстро и удобно в дороге с оригинальным автомобильным зарядным устройством", category: "", pages: "" },
     { name: "Зарядная станция DJI Avata 2", price: "5 000 p", exPrice: "", desc: "Зарядный хаб для 3х аккумуляторов (батарей)", category: "", pages: "" },
     { name: "Портативная электростанция ARTELV PSL 1500W", price: "109 000 p", exPrice: "", desc: "Это ультра-профессиональное решение для обеспечения энергии в местах, где нет доступа к розетке или требуется надежный и стойкий источник питания.", category: "", pages: "" },
-    { name: "Хаб для заряда 3х аккмуляторов DJI Mini 3 Pro / 4 Pro Two-Way Charging Hub", price: "10 000 p", exPrice: "", desc: "Two-Way Charging Hub - Это двухсторонний зарядный концентратор, который может одновременно заряжать пульт управления и три батареи. Его можно использовать как мобильный источник питания и для удобного хранения батарей. С помощью зарядного устройства DJI USB-C мощностью 30 Вт три батареи DJI Mini 3 Pro заряжаются полностью за три часа, что значительно повышает эффективность зарядки.", category: "", pages: "" },
+    { name: "Хаб для заряда 3х аккмуляторов DJI Mini 3 Pro - 4 Pro Two-Way Charging Hub", price: "10 000 p", exPrice: "", desc: "Two-Way Charging Hub - Это двухсторонний зарядный концентратор, который может одновременно заряжать пульт управления и три батареи. Его можно использовать как мобильный источник питания и для удобного хранения батарей. С помощью зарядного устройства DJI USB-C мощностью 30 Вт три батареи DJI Mini 3 Pro заряжаются полностью за три часа, что значительно повышает эффективность зарядки.", category: "", pages: "" },
 
     // 20.Пропеллеры
     {
         name: "Mavic 3 Low-Noise Propellers (Пропеллеры)", price: "3 500 p", exPrice: "", desc: "Малошумные пропеллеры для Mavic 3", category: "", pages: ""
     },
     { name: "DJI Matrice 300 Propellers 2110 (Пропеллеры)", price: "13 500 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 300", category: "", pages: "" },
-    { name: "Matrice 30/30T (Пропеллеры)", price: "13 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 30/30T", category: "", pages: "" },
+    { name: "Matrice 30-30T (Пропеллеры)", price: "13 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 30/30T", category: "", pages: "" },
 
     // 21.Системы сброса
     { name: "DJI Mavic 3 Release System BRDRC (Система сброса)", price: "3 800 p", exPrice: "", desc: "Система сброса для DJI Mavic 3.", category: "", pages: "" },
