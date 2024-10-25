@@ -522,7 +522,10 @@ footer {
      z-index: 999;
      top: 0;
      width: 100%;
-     display: block;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
      background-color: #fff;
      height: 100%;
  }
@@ -534,7 +537,6 @@ footer {
      width: 100px;
      height: 100px;
      background-image: url('https://cdn-icons-png.flaticon.com/512/2652/2652351.png');
-     /* Placeholder drone image */
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center;
@@ -557,10 +559,10 @@ footer {
 
  .loader-text {
      position: absolute;
-     top: 130%;
+     top: 60%;
      left: 50%;
      transform: translateX(-50%);
-     color: white;
+     color: rgb(0, 0, 0);
      font-family: Arial, sans-serif;
      font-size: 1.2rem;
      letter-spacing: 2px;

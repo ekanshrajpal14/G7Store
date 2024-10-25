@@ -972,7 +972,7 @@ paginationMainFun()
 
 
 const loader = document.createElement('div');
-loader.className = 'loader-container';
+loader.className = 'loader-container no-scroll';
 const drone = document.createElement("div")
 drone.className = "drone"
 const loaderText = document.createElement("div")
