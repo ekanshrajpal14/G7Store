@@ -782,10 +782,7 @@ pTag.forEach((p) => {
         category = e.target.getAttribute("data-option");
         var moreOpt = ""
         moreOpt = e.target.getAttribute("data-moreOptions");
-
-
-
-        if (moreOpt.toLowerCase() != "") {
+        if (moreOpt != "") {
 
             filteredData = arrayData.filter((item) => {
                 return item.pages.toLowerCase() === moreOpt.toLowerCase();
