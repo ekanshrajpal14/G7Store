@@ -1,3 +1,24 @@
+const loader = document.createElement('div');
+loader.className = 'loader-container no-scroll';
+const drone = document.createElement("div")
+drone.className = "drone"
+const loaderText = document.createElement("div")
+loaderText.className = "loader-text"
+const h2 = document.createElement("h2");
+h2.textContent = "Please wait"
+const h21 = document.createElement("h2");
+h21.textContent = 'G7 Store - Loading';
+loaderText.appendChild(h2)
+loaderText.appendChild(h21)
+loader.appendChild(drone)
+loader.appendChild(loaderText)
+document.body.appendChild(loader);
+
+window.onload = () => {
+    document.querySelector(".loader-container").style.display = "none"
+
+};
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -971,21 +992,7 @@ function paginationMainFun() {
 paginationMainFun()
 
 
-const loader = document.createElement('div');
-loader.className = 'loader-container no-scroll';
-const drone = document.createElement("div")
-drone.className = "drone"
-const loaderText = document.createElement("div")
-loaderText.className = "loader-text"
-loaderText.textContent = 'Loading...';
-loader.appendChild(drone)
-loader.appendChild(loaderText)
-document.body.appendChild(loader);
 
-window.onload = () => {
-    document.querySelector(".loader-container").style.display = "none"
-
-};
 
 
 
