@@ -25,19 +25,16 @@
 <body>
 
     <div class="onClickWindow">
-        <div class="cross">x</div>
+        <div class="cross"><img src="./Prod_Img/cross.png" alt=""></div>
         <div class="search_bar_div">
-
             <div class="input_tag">
                 <input class="input_search" type="text" placeholder="Search your product">
-                <div class="box">></div>
+                <div class="box" onclick="getValofInput()"><img src="./Prod_Img/search.png" alt=""></div>
             </div>
         </div>
         <div class="data_put_here">
             <div class="product-container">
-
-
-
+                <!-- data will be in this container -->
             </div>
         </div>
     </div>
@@ -240,7 +237,7 @@
             </div>
         </nav>
 
-        
+
         <!-- <div class="space_div"></div> -->
         <section class="section2">
             <div class="slides">
@@ -249,22 +246,48 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide swipe_slider">
-                            <div class="slide_one" style="--bgImg:url(https://www-cdn.djiits.com/cms/uploads/b976c6de4bb48ffe42cbb0fc75cd91ad.jpg)"  >
+                            <div class="slide_one" style="padding: 0;">
+                                <div class="full_video">
+                                    <div class="video">
+                                        <video
+                                            src="https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/WA234shoton%E8%A7%86%E9%A2%91/F59_WA234_%E2%89%A410s_DJI%20home%20page%20Shot%20on%20Banner%20Video_CLEAN_2400x1440_1.mp4"
+                                            autoplay muted loop></video>
+                                    </div>
+                                    <div class="text_page1">
+                                        <h1>Welcome to G7 Store <br> Your Gateway to DJI Excellence</h1>
+                                        <p>Discover a curated selection of cutting-edge quadcopters, essential
+                                            accessories, and licensed gear designed for
+                                            enthusiasts and professionals alike. Elevate your aerial adventures with our
+                                            expertly crafted products, backed by
+                                            unmatched customer service and exclusive deals, all in one place.</p>
+                                        <div class="btn-container">
+                                            <a class="btn btn-primary" href="">Get a call</a> <a class="btn"
+                                                href="">Explore More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide swipe_slider">
+                            <div class="slide_one"
+                                style="--bgImg:url(https://www-cdn.djiits.com/cms/uploads/b976c6de4bb48ffe42cbb0fc75cd91ad.jpg)">
                                 <div class="container">
                                     <p class="headline">Dual-Camera Drone for Travel Photography</p>
                                     <h1>DJI AIR 3<span>S</span></h1>
                                     <p class="subheadline">Chase the View</p>
                                     <div class="btn-container">
-                                        <a  href="#" class="btn">Learn More</a>
+                                        <a href="#" class="btn">Learn More</a>
                                         <a href="#" class="btn ">Buy Now</a>
                                     </div>
                                 </div>
-                              
+
                                 <!-- <img src="./images/drone_img.jpg" alt=""> -->
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="slide_one" style="--bgImg:url(https://www-cdn.djiits.com/cms/uploads/a9b0636a0208b6467b18abcf6f8bb06d.jpg)">
+                            <div class="slide_one"
+                                style="--bgImg:url(https://www-cdn.djiits.com/cms/uploads/a9b0636a0208b6467b18abcf6f8bb06d.jpg)">
                                 <div class="container">
                                     <p class="headline">Triple Lens Camera Drone</p>
                                     <h1>DJI MAVIC 3 <span>PRO</span></h1>
@@ -278,7 +301,8 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="slide_one" style="--bgImg:url(https://www-cdn.djiits.com/cms/uploads/d4e8e295ca6f4e4146b744943ea6a9fd.jpg)">
+                            <div class="slide_one"
+                                style="--bgImg:url(https://www-cdn.djiits.com/cms/uploads/d4e8e295ca6f4e4146b744943ea6a9fd.jpg)">
                                 <div class="container">
                                     <p class="headline">1" CMOS Pocket Gimbal Camera</p>
                                     <h1>OSMO POCKET 3</h1>
@@ -305,13 +329,13 @@
                 </div>
             </div>
         </section>
-        <section class="section1">
+        <!-- <section class="section1">
             <div class="full_video">
                 <div class="video">
-                    <video src="./videos/home_v1.mp4" autoplay muted loop></video>
+                    <video src="https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/WA234shoton%E8%A7%86%E9%A2%91/F59_WA234_%E2%89%A410s_DJI%20home%20page%20Shot%20on%20Banner%20Video_CLEAN_2400x1440_1.mp4" autoplay muted loop></video>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="section3" id="section3">
             <div class="page3">
                 <div class="left">
@@ -377,7 +401,7 @@
                         <a href="#section3" data-moreOptions="" data-option="Роботы собаки">Роботы собаки</a>
                         <a href="#section3" data-moreOptions="" data-option="Прицелы и">Прицелы и монокуляры</a>
                         <a href="#section3" data-moreOptions="" data-option="Новинки &">Новинки & Спецпредложения</a>
-                        <a href="#section3"  data-moreOptions=""  data-option="РЭБ 'Ромашка'">РЭБ 'Ромашка'</a>
+                        <a href="#section3" data-moreOptions="" data-option="РЭБ 'Ромашка'">РЭБ 'Ромашка'</a>
                         <!-- <a href="#section3"  data-moreOptions=""  data-option="Ромашка + Капюшон">Ромашка + Капюшон</a> -->
                         <!-- <a href="#section3"  data-moreOptions=""  data-option="Станции индивидуального ношения">Станции индивидуального -->
                         <!-- ношения</a> -->

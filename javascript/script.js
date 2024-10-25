@@ -931,6 +931,9 @@ window.addEventListener("load", () => {
 });
 
 
+
+// code for search
+
 document.querySelector(".search_circle").addEventListener("click", function (q) {
     document.querySelector(".onClickWindow").style.display = "flex";
     document.body.classList.toggle("no_scroll");
@@ -945,11 +948,20 @@ document.querySelector(".cross").addEventListener("click", function (q) {
 
 })
 
-document.querySelector(".box").addEventListener("click", function (e) {
+document.querySelector(".input_search").addEventListener("keyup", function (e) {
+    e.preventDefault();
+    console.log(e);
 
-    var searchValue = document.querySelector(".input_search").value;
-    printData(search(searchValue))
+    if (e.keyCode === 13) {
+        getValofInput()
+    }
 })
+function getValofInput() {
+    var searchValue = document.querySelector(".input_search").value;
+    if (searchValue.trim() != "") {
+        printData(search(searchValue.trim()));
+    }
+}
 
 function search(searchValue) {
     var searchResult = arrayData.filter((val) => {
@@ -962,16 +974,19 @@ function search(searchValue) {
 function printData(data) {
     document.querySelector(".data_put_here").style.display = "flex"
     var newDataClutter = ""
+    var dynMsg = "Hello, I am interested in - "
     if (data.length != 0) {
         data.forEach((e) => {
-            newDataClutter += ` <div class="product">
+
+            newDataClutter += ` <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=${dynMsg}${e.name}!"><div class="product">
                         <img src="./webp_img/${e.name}.webp" alt="Product 2">
                         <div class="product-info">
                             <h4>${e.name}</h4>
                             <p>${e.desc}</p>
                             <div class="product-price">${e.price}</div>
                         </div>
-                    </div>`
+                    </div>
+                    </a>`
         })
     }
     else {
