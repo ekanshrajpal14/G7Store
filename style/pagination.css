@@ -18,12 +18,13 @@
     /* background-color: #0085b6; */
     justify-content: center;
 }
-/* #pagination-numbers{
+#pagination-numbers{
     display: flex;
     align-items: center; 
     flex-wrap: wrap;   
+    width: 30vw;
     justify-content: center;
-} */
+}
 .pagination-number,
 .pagination-button {
     font-size: 1.1rem;
