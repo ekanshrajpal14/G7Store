@@ -767,7 +767,6 @@ function showData(myData) {
 
     // pagination reset
     listItems = document.querySelectorAll(".cart_box");
-    console.log(listItems.length);
     pageCount = Math.ceil(listItems.length / paginationLimit);
     document.querySelector("#pagination-numbers").innerHTML = "";
     paginationMainFun()
@@ -819,10 +818,8 @@ const paginatedList = document.getElementById("paginated-list");
 const nextButton = document.getElementById("next-button");
 listItems = document.querySelectorAll(".cart_box");
 const prevButton = document.getElementById("prev-button");
-console.log(listItems);
 
 const paginationLimit = 12;
-console.log(listItems.length);
 
 pageCount = Math.ceil(listItems.length / paginationLimit);
 
@@ -856,7 +853,6 @@ const handleActivePageNumber = () => {
         button.classList.remove("active");
         const pageIndex = Number(button.getAttribute("page-index"));
         if (pageIndex == currentPage) {
-            console.log(currentPage, pageIndex);
             button.classList.add("active");
         }
     });
@@ -915,7 +911,6 @@ const attachPageClickHandlers = () => {
         const pageIndex = Number(button.getAttribute("page-index"));
         if (pageIndex) {
             button.addEventListener("click", () => {
-                console.log(button);
                 setCurrentPage(pageIndex);
                 document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
             });
@@ -973,9 +968,24 @@ function paginationMainFun() {
     // });
 }
 
-window.addEventListener("load", () => {
-    paginationMainFun()
-});
+paginationMainFun()
+
+
+const loader = document.createElement('div');
+loader.className = 'loader-container';
+const drone = document.createElement("div")
+drone.className = "drone"
+const loaderText = document.createElement("div")
+loaderText.className = "loader-text"
+loaderText.textContent = 'Loading...';
+loader.appendChild(drone)
+loader.appendChild(loaderText)
+document.body.appendChild(loader);
+
+window.onload = () => {
+    document.querySelector(".loader-container").style.display = "none"
+
+};
 
 
 
@@ -997,7 +1007,6 @@ document.querySelector(".cross").addEventListener("click", function (q) {
 
 document.querySelector(".input_search").addEventListener("keyup", function (e) {
     e.preventDefault();
-    console.log(e);
 
     if (e.keyCode === 13) {
         getValofInput()
