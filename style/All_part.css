@@ -472,3 +472,41 @@ footer {
         }
     }
 }
+
+
+
+
+
+
+
+
+/* all usable classsed */
+.not_found {
+    width: 96%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(197, 197, 197);
+    opacity: 0;
+    animation: animation_found .5s ease-in-out both;
+
+    h3 {
+        font-weight: 400;
+        color: rgb(188, 188, 188);
+    }
+}
+
+
+/* snippets */
+
+
+
+
+.display_none{
+    display: none;
+}
+
+.display_flex{
+    display: flex;
+}

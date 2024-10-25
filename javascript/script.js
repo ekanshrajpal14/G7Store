@@ -937,10 +937,16 @@ document.querySelector(".search_circle").addEventListener("click", function (q) 
 })
 
 document.querySelector(".cross").addEventListener("click", function (q) {
-    document.querySelector(".onClickWindow").style.display = "none"
+    document.querySelector(".onClickWindow").style.display = "none";
+    document.querySelector(".data_put_here").style.display = "none";
+    document.querySelector(".product-container").innerHTML = "";
+    document.body.classList.toggle("no_scroll");
+    document.querySelector(".input_search").value = '';
+
 })
 
 document.querySelector(".box").addEventListener("click", function (e) {
+
     var searchValue = document.querySelector(".input_search").value;
     printData(search(searchValue))
 })
@@ -949,21 +955,30 @@ function search(searchValue) {
     var searchResult = arrayData.filter((val) => {
         return val.name.toLowerCase().includes(searchValue.toLowerCase());
     })
+
     return searchResult;
 }
 
-function printData(data){
+function printData(data) {
+    document.querySelector(".data_put_here").style.display = "flex"
     var newDataClutter = ""
-    data.forEach((e)=>{
-        newDataClutter += ` <div class="product">
-                    <img src="./webp_img/${e.name}.webp" alt="Product 2">
-                    <div class="product-info">
-                        <h4>${e.name}</h4>
-                        <p>${e.desc}</p>
-                        <div class="product-price">${e.price}</div>
-                    </div>
-                </div>`
-    })
+    if (data.length != 0) {
+        data.forEach((e) => {
+            newDataClutter += ` <div class="product">
+                        <img src="./webp_img/${e.name}.webp" alt="Product 2">
+                        <div class="product-info">
+                            <h4>${e.name}</h4>
+                            <p>${e.desc}</p>
+                            <div class="product-price">${e.price}</div>
+                        </div>
+                    </div>`
+        })
+    }
+    else {
+        newDataClutter = `<div class="not_found">
+                            <h3>Nothing Found</h3>
+                        </div>`
+    }
 
     document.querySelector(".product-container").innerHTML = newDataClutter;
 }
