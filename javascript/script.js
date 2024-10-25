@@ -859,6 +859,7 @@ const handleActivePageNumber = () => {
         button.classList.remove("active");
         const pageIndex = Number(button.getAttribute("page-index"));
         if (pageIndex == currentPage) {
+            console.log(currentPage, pageIndex);
             button.classList.add("active");
         }
     });
@@ -874,17 +875,64 @@ const appendPageNumber = (index) => {
     paginationNumbers.appendChild(pageNumber);
 };
 
+// Function to append ellipsis
+
+const appendEllipsis = () => {
+    const ellipsis = document.createElement("span");
+    ellipsis.innerHTML = "...";
+    ellipsis.className = "ellipsis";
+    paginationNumbers.appendChild(ellipsis);
+
+};
+
 const getPaginationNumbers = () => {
-    for (let i = 1; i <= pageCount; i++) {
-        appendPageNumber(i);
+    paginationNumbers.innerHTML = ""; // Clear previous numbers
+    const maxPagesToShow = 4;
+    if (pageCount <= maxPagesToShow) {
+        // If total pages <= 4, show all pages
+        for (let i = 1; i <= pageCount; i++) {
+            appendPageNumber(i);
+        }
+    } else {
+        // Show first page
+        appendPageNumber(1);
+        if (currentPage > 3) {
+            appendEllipsis();
+        }
+        // Determine the range of middle pages
+        let startPage = Math.max(2, currentPage - 1);
+        let endPage = Math.min(pageCount - 1, currentPage + 1);
+        for (let i = startPage; i <= endPage; i++) {
+            appendPageNumber(i);
+        }
+        if (currentPage < pageCount - 2) {
+            appendEllipsis();
+        }
+        // Show last page
+        appendPageNumber(pageCount);
     }
+};
+
+const attachPageClickHandlers = () => {
+    document.querySelectorAll(".pagination-number").forEach((button) => {
+        const pageIndex = Number(button.getAttribute("page-index"));
+        if (pageIndex) {
+            button.addEventListener("click", () => {
+                console.log(button);
+                setCurrentPage(pageIndex);
+                document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
+            });
+        }
+    });
 };
 
 const setCurrentPage = (pageNum) => {
     currentPage = pageNum;
 
-    handleActivePageNumber();
     handlePageButtonsStatus();
+    getPaginationNumbers(); // Update page numbers with ellipses
+    attachPageClickHandlers();
+    handleActivePageNumber(); // handles color of pagination number
 
     const prevRange = (pageNum - 1) * paginationLimit;
     const currRange = pageNum * paginationLimit;
@@ -909,21 +957,23 @@ nextButton.addEventListener("click", () => {
 
 });
 function paginationMainFun() {
-    getPaginationNumbers(); //using for page numbers
-    setCurrentPage(1);
 
-    document.querySelectorAll(".pagination-number").forEach((button) => {
-        const pageIndex = Number(button.getAttribute("page-index"));
+    getPaginationNumbers(); // Display page numbers initially
+    attachPageClickHandlers(); // Attach click handlers initially
+    setCurrentPage(1); // Start at the first page
+
+    // document.querySelectorAll(".pagination-number").forEach((button) => {
+    //     const pageIndex = Number(button.getAttribute("page-index"));
 
 
-        if (pageIndex) {
-            button.addEventListener("click", () => {
-                setCurrentPage(pageIndex);
-                document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
+    //     if (pageIndex) {
+    //         button.addEventListener("click", () => {
+    //             setCurrentPage(pageIndex);
+    //             document.querySelector("#section3").scrollIntoView({ behavior: "smooth" });
 
-            });
-        }
-    });
+    //         });
+    //     }
+    // });
 }
 
 window.addEventListener("load", () => {
