@@ -263,9 +263,9 @@
 }
 
 .map {
-    width: 25vw;
-    height: 20vw;
-    background-color: #5a5a5a;
+    width: auto;
+    height: auto;
+    padding: 2vw;
 
 }
 

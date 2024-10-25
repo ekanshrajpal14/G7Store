@@ -15,7 +15,10 @@ loader.appendChild(loaderText)
 document.body.appendChild(loader);
 
 window.onload = () => {
-    document.querySelector(".loader-container").style.display = "none"
+    document.querySelector(".loader-container").style.display = "none";
+    document.querySelector(".main").style.display = "block";
+    paginationMainFun()
+
 
 };
 
@@ -989,7 +992,6 @@ function paginationMainFun() {
     // });
 }
 
-paginationMainFun()
 
 
 

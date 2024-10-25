@@ -21,6 +21,7 @@ a {
 .main {
     width: 100%;
     height: auto;
+    display: none;
     background-color: #fff;
     font-family: "Montserrat", sans-serif;
 }
@@ -92,7 +93,8 @@ section 2  */
             margin-top: 2vw;
             margin-bottom: 2vw;
         }
-        .btn-primary{
+
+        .btn-primary {
             background-color: #fff;
             color: #000;
         }
