@@ -27,6 +27,9 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     effect: "fade",
+    autoplay: {
+        delay: 5000,
+    },
 
     // If we need pagination
     pagination: {
