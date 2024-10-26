@@ -7,8 +7,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: .8vw;
-
-
     .cart_box {
         width: 19vmax;
         height: auto;
