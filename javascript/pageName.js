@@ -182,8 +182,8 @@ function pageNameData(pageName) {
                                 <p class="price">${data.price}. &nbsp; <span>${data.exPrice}</span></p>
                             </div>
                             <div class="part2_bottom">
-                                <a href="">Add to Cart</a>
-                                <a href="" class="read_more">Read More</a>
+                                <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${data.name}!">Order Now</a>
+                                <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${data.name}" class="read_more">Read More</a>
                             </div>
                         </div>
                     </div>`
