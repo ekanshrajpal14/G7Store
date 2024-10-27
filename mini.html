@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini</title>
-  <!-- <link rel="preload" media="(min-width: 1208px)" href="videos/mini.mp4" as="video" type="video/mp4"  crossorigin /> -->
+    <!-- <link rel="preload" media="(min-width: 1208px)" href="videos/mini.mp4" as="video" type="video/mp4"  crossorigin /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -14,38 +14,41 @@
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/mini.css">
     <link rel="stylesheet" href="./style/All_part.css">
-    
+
 
 
 </head>
 
 <body>
+    
     <div class="mini">
-        <iframe src="navbar.html"
+        <iframe src="./components/navbar.html"
             onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-
-
         <div class="mini_page1">
             <div class="video_div">
                 <video preload="none" src="./videos/mini.mp4" loop muted autoplay></video>
             </div>
-            <div class="mini_page1_text">
-                <h1 class="heading_decos" >G7-Store <span class="changes_in_color_white">Mini</span> 4 Pro</h1>
-                <p>Mini to the Max</p>
-                <div>
-                    <a href="" class="button_class_all">Buy Now</a>
-                    <a href="#explore_page" class="explore button_class_all">Explore More</a>
+            <div class="cover_div_text">
+                <div class="mini_page1_text">
+                    <h1 class="heading_decos">G7-Store <span class="changes_in_color_white">Mini</span> 4 Pro</h1>
+                    <p>Mini to the Max</p>
+                    <div>
+                        <a href="" class="button_class_all">Buy Now</a>
+                        <a href="#explore_page" class="explore button_class_all">Explore More</a>
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <div id="explore_page" class="mini_page2">
             <div class="containers">
-                <h5>G7-Store Mini is a lightweight and compact quadcopter ideal for photography and videography enthusiasts.
+                <h5>G7-Store Mini: Your ultra-light, compact drone crafted for capturing stunning aerial photos and videos—perfect for
+                photographers and filmmakers on the go.
                 </h5>
 
                 <div class="all_carts">
-                    
+
                     <div class="cart_box">
                         <div class="top_part">
                             <div class="image_cont">
@@ -127,14 +130,14 @@
                 </div>
             </div>
         </div>
-        <iframe src="footer.html"
+        <iframe src="./components/footer.html"
             onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 
     </div>
 
     <script src="./javascript/pageName.js"></script>
-  <!-- <script async src="./javascript/common.js"></script> -->
+    <!-- <script async src="./javascript/common.js"></script> -->
 </body>
 
 </html>

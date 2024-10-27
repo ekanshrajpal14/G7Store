@@ -5,6 +5,7 @@
 
 }
 
+
 .mini_page1 {
     width: 100%;
     height: 100vh;
@@ -13,7 +14,7 @@
 
 .video_div {
     width: 100%;
-    height: 92%;
+    height: 100%;
 
     video {
         width: 100%;
@@ -23,6 +24,14 @@
     }
 }
 
+.cover_div_text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0000002a;
+}
 .mini_page1_text {
     position: absolute;
     top: 45%;

@@ -148,8 +148,8 @@ var arrayData = [
     { name: "DJI Mini 3 Pro Fly More Kit Plus", price: "31 000 p", exPrice: "", desc: "Набор аксессуаров для Mini 3", category: "Mini 3 Kit", pages: "mini" },
 
     // mini 4k
-    { name: "DJI Mini 4K", price: "55 000 p", exPrice: "", desc: "DJI Mini 4K – компактный дрон весом менее, он идеально подходит для записи долгих путешествий и создания впечатляющих кадров.", category: "mini 4k", pages: "" },
-    { name: "DJI Mini 4K (Fly More Combo)", price: "85 000 p", exPrice: "", desc: "Расширенный набор Fly More Combo DJI Mini 4K – компактный дрон весом менее, он идеально подходит для записи долгих путешествий и созда ния впечатляющих кадров.", category: "mini 4k", pages: "" },
+    { name: "DJI Mini 4K", price: "55 000 p", exPrice: "", desc: "DJI Mini 4K – компактный дрон весом менее, он идеально подходит для записи долгих путешествий и создания впечатляющих кадров.", category: "mini 4k", pages: "mini" },
+    { name: "DJI Mini 4K (Fly More Combo)", price: "85 000 p", exPrice: "", desc: "Расширенный набор Fly More Combo DJI Mini 4K – компактный дрон весом менее, он идеально подходит для записи долгих путешествий и созда ния впечатляющих кадров.", category: "mini 4k", pages: "mini" },
 
     // avata
     // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
