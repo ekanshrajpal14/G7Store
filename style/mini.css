@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     font-family: "Montserrat", sans-serif;
-
+    display: none;
 }
 
 
@@ -24,7 +24,7 @@
     }
 }
 
-.cover_div_text{
+.cover_div_text {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -32,6 +32,7 @@
     left: 0;
     background-color: #0000002a;
 }
+
 .mini_page1_text {
     position: absolute;
     top: 45%;

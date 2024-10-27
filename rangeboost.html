@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini</title>
+    <!-- <link rel="preload" media="(min-width: 1208px)" href="videos/mini.mp4" as="video" type="video/mp4"  crossorigin /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -14,6 +15,8 @@
     <link rel="stylesheet" href="./style/ClickWindow.css">
     <link rel="stylesheet" href="./style/mini.css">
     <link rel="stylesheet" href="./style/All_part.css">
+
+
 
 </head>
 
@@ -33,8 +36,9 @@
             </div>
         </div>
     </div>
-
     <div class="mini">
+        <!-- <iframe src="./components/navbar.html"
+            onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe> -->
         <nav>
             <div class="navgation">
                 <div class="navbar">
@@ -203,12 +207,12 @@
                                 <a href="#" class="a_btn_dropdown">Более<i class="ri-arrow-drop-down-line"></i></a>
                                 <div class="dropdown_items more_bar">
                                     <!-- <div>
-                                            <div>
-                                                <a href="contact.html">
-                                                    <h4>Contact Us</h4>
-                                                </a>
-                                            </div>
-                                        </div> -->
+                                                    <div>
+                                                        <a href="contact.html">
+                                                            <h4>Contact Us</h4>
+                                                        </a>
+                                                    </div>
+                                                </div> -->
                                     <div>
                                         <div>
                                             <a href="about.html">
@@ -237,32 +241,32 @@
         </nav>
         <div class="mini_page1">
             <div class="video_div">
-                <video preload="none" src="./videos/air.mp4" loop muted autoplay></video>
+                <video preload="none" src="./videos/agras.webm" loop muted autoplay></video>
             </div>
             <div class="cover_div_text">
                 <div class="mini_page1_text">
-                    <h1 class="heading_decos">DJI <span class="changes_in_color_white">Air</span></h1>
-                    <p>Chase the View</p>
+                    <h1 class="heading_decos">DJI <span class="changes_in_color_white">Agras</span></h1>
+                    <p>Ready, Steady, Go.</p>
                     <div>
                         <a href="" class="button_class_all">Order Now</a>
                         <a href="#explore_page" class="explore button_class_all">Explore More</a>
                     </div>
                 </div>
             </div>
+
         </div>
+
 
         <div id="explore_page" class="mini_page2">
             <div class="containers">
-                <h5>DJI Air: a sleek, lightweight quadcopter designed to elevate your photography and videography with
-                    breathtaking
-                    aerial shots, perfect for enthusiasts and creators alike.
-                </h5>
 
-                <div class="all_carts">
+                <h5>DJI AGRAS: leverages a Dual Atomizing Spraying System, Front and Rear Phased Array Radars, and a
+                    Binocular Vision
+                    System. It excels across multiple scenarios, from surveying[2] to spraying and spreading,
+                    guaranteeing stable
+                    operations and steady performance</h5>
 
-
-
-                </div>
+                <div class="all_carts"></div>
             </div>
         </div>
         <iframe src="./components/footer.html"
@@ -271,12 +275,8 @@
 
     </div>
 
-
     <script src="./javascript/pageName.js"></script>
-    <script src="./javascript/common.js"></script>
-
-
-
+    <script async src="./javascript/common.js"></script>
 </body>
 
 </html>

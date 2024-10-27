@@ -279,14 +279,3 @@ section 2  */
 
 }
 
-@keyframes animation_found {
-
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-
-}
