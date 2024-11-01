@@ -267,6 +267,7 @@ var arrayData = [
     { name: "DJI Mini SE Controller MR1SD25", price: "6 500 p", exPrice: "", desc: "Пульт для Mini SE", category: "Пульты", outOfStock:"", pages: "" },
     { name: "Motion Controller", price: "16 900 p", exPrice: "", desc: "Пульт управления FPV.", category: "Пульты", outOfStock:"", pages: "" },
     { name: "Motion Controller 2", price: "20 500 p", exPrice: "", desc: "Пульт управления FPV.", category: "Пульты", outOfStock:"", pages: "" },
+    { name: "Зарядное устройство 6 в 1 для DJI Mavic 3-3T-3Pro", price: "8 000 p", exPrice: "", desc: "Сетевое зарядное устройство", category: "Батареи", outOfStock: "", pages: "batteries-all" },
 
 
     // 18.Батареи
@@ -298,7 +299,8 @@ var arrayData = [
     },
     { name: "DJI Matrice 300 Propellers 2110 (Пропеллеры)", price: "13 500 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 300", category: "Пропеллеры", outOfStock:"", pages: "" },
     { name: "Matrice 30-30T (Пропеллеры)", price: "13 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 30/30T", category: "Пропеллеры", outOfStock:"", pages: "" },
-
+    { name: "Autel Max 4T (Пропеллеры)", price: "5 000 p", exPrice: "", desc: "Пропеллеры для DJI Autel Max 4T", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
+    { name: "DJI Matrice 350 Propellers 2110 (Пропеллеры)", price: "14 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 350", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
     // 21.Системы сброса
     { name: "DJI Mavic 3 Release System BRDRC (Система сброса)", price: "3 800 p", exPrice: "", desc: "Система сброса для DJI Mavic 3.", category: "Системы сброса", outOfStock:"", pages: "" },
 

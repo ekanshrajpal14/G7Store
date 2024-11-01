@@ -15,7 +15,14 @@
 .video_div {
     width: 100%;
     height: 100%;
-
+    overflow: hidden;
+    .img{
+        width: 100%;
+        height: 100%;
+        margin-top: 3vw;
+        object-position:center;
+        object-fit: cover;
+    }
     video {
         width: 100%;
         aspect-ratio: 16/9;
@@ -118,7 +125,7 @@
     padding: 2vw 10vw;
 
     h5 {
-        font-size: 1.7vw;
+        font-size: 1.5vw;
         font-weight: 500;
     }
 }

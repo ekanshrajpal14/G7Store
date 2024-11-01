@@ -198,37 +198,38 @@ var arrayData = [
     { name: "DJI FPV Combo", price: "130 000 p", exPrice: "", desc: "FPV-дрон с дополнительными аксессуарами.", category: "FPV (Серия)", outOfStock: "", pages: "" },
 
     // kit
-    { name: "DJI Mavic 3 Fly More Kit", price: "55 000 p", exPrice: "", desc: "Набор аксессуаров для дрона", category: "kit", outOfStock: "", pages: "" },
-    { name: "DJI Mavic 2 Enterprise Fly More Kit", price: "50 000 p", exPrice: "", desc: "Набор аксессуаров для дрона Mavic 2", category: "kit", outOfStock: "", pages: "" },
-    { name: "DJI Mavic 3 Enterprise Battery Kit", price: "65 000 p", exPrice: "", desc: "Зарядный набор для дрона", category: "kit", outOfStock: "", pages: "" },
-    { name: "DJI Mini 3 Pro Fly More Kit Plus", price: "31 000 p", exPrice: "", desc: "Набор аксессуаров для Mini 3", category: "kit", outOfStock: "", pages: "" },
-    { name: "DJI Avata Fly More Kit", price: "34 500 p", exPrice: "", desc: "Зарядный набор для DJI Avata", category: "kit", outOfStock: "", pages: "" },
+    { name: "DJI Mavic 3 Fly More Kit", price: "55 000 p", exPrice: "", desc: "Набор аксессуаров для дрона", category: "kit", outOfStock: "", pages: "kit-all" },
+    { name: "DJI Mavic 2 Enterprise Fly More Kit", price: "50 000 p", exPrice: "", desc: "Набор аксессуаров для дрона Mavic 2", category: "kit", outOfStock: "", pages: "kit-all" },
+    { name: "DJI Mavic 3 Enterprise Battery Kit", price: "65 000 p", exPrice: "", desc: "Зарядный набор для дрона", category: "kit", outOfStock: "", pages: "kit-all" },
+    { name: "DJI Mini 3 Pro Fly More Kit Plus", price: "31 000 p", exPrice: "", desc: "Набор аксессуаров для Mini 3", category: "kit", outOfStock: "", pages: "kit-all" },
+    { name: "DJI Avata Fly More Kit", price: "34 500 p", exPrice: "", desc: "Зарядный набор для DJI Avata", category: "kit", outOfStock: "", pages: "kit-all" },
 
 
 
     // 17.Пульты
-    { name: "DJI FPV Remote Controller 3", price: "22 500 p", exPrice: "", desc: "Усовершенственный пульт для Avata 2 от DJI с интегрированной антенной, легким весом и продолжительным временем работы. В комплекте идут доп.стики (пара)", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "Alientech DUO 2( для пульта RC PRO)", price: "58 500 p", exPrice: "", desc: "Усилитель сигнала Alientech DUO II ( для пульта RC PRO)", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "DJI RC", price: "13 500 p", exPrice: "", desc: "Пульт с экраном. DJI Remote Controller (RC)", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "DJI RC Pro", price: "89 000 p", exPrice: "", desc: "Профессиональный пульт с экраном.", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "DJI RC Plus", price: "180 000 p", exPrice: "", desc: "Влагозащитный и ударопрочный профессиональный пульт с экраном.", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "DJI RC-N1", price: "10 000 p", exPrice: "", desc: "Пульт без экрана.", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "DJI FPV Remote Controller 2", price: "29 900 p", exPrice: "", desc: "FPV-пульт.", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "DJI Mini SE Controller MR1SD25", price: "6 500 p", exPrice: "", desc: "Пульт для Mini SE", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "Motion Controller", price: "16 900 p", exPrice: "", desc: "Пульт управления FPV.", category: "Пульты", outOfStock: "", pages: "" },
-    { name: "Motion Controller 2", price: "20 500 p", exPrice: "", desc: "Пульт управления FPV.", category: "Пульты", outOfStock: "", pages: "" },
+    { name: "DJI RC-N1", price: "10 000 p", exPrice: "", desc: "Пульт без экрана.", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "DJI RC", price: "13 500 p", exPrice: "", desc: "Пульт с экраном. DJI Remote Controller (RC)", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "DJI RC Pro", price: "89 000 p", exPrice: "", desc: "Профессиональный пульт с экраном.", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "DJI RC Plus", price: "180 000 p", exPrice: "", desc: "Влагозащитный и ударопрочный профессиональный пульт с экраном.", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "DJI FPV Remote Controller 2", price: "29 900 p", exPrice: "", desc: "FPV-пульт.", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "DJI Mini SE Controller MR1SD25", price: "6 500 p", exPrice: "", desc: "Пульт для Mini SE", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "Motion Controller", price: "16 900 p", exPrice: "", desc: "Пульт управления FPV.", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "Motion Controller 2", price: "20 500 p", exPrice: "", desc: "Пульт управления FPV.", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "Alientech DUO 2( для пульта RC PRO)", price: "58 500 p", exPrice: "", desc: "Усилитель сигнала Alientech DUO II ( для пульта RC PRO)", category: "Пульты", outOfStock: "", pages: "rc-all" },
+    { name: "DJI FPV Remote Controller 3", price: "22 500 p", exPrice: "", desc: "Усовершенственный пульт для Avata 2 от DJI с интегрированной антенной, легким весом и продолжительным временем работы. В комплекте идут доп.стики (пара)", category: "Пульты", outOfStock: "", pages: "rc-all" },
 
 
     // 18.Батареи
-    { name: "DJI Mavic 3 Intelligent Flight Battery (Батарея)", price: "19 500 p", exPrice: "", desc: "Батарея для DJI Mavic 3.", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "DJI Matrice 350 TB65 Battery (Батарея)", price: "70 000 p", exPrice: "", desc: "Батарея для DJI Matrice 350.", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "DJI Matrice 300 Battery TB60 (Батарея)", price: "75 000 p", exPrice: "", desc: "Батарея для DJI Matrice 300.", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "DJI Matrice 30 Battery TB30 (Батарея)", price: "43 000 p", exPrice: "", desc: "Батарея для DJI Matrice 30", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "Mavic 2 Enterprise Battery (Батарея)", price: "19 999 p", exPrice: "", desc: "Батарея для Mavic 2", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "WB37 Battery (Батарея)", price: "15 000 p", exPrice: "", desc: "Батарея для RC Plus, CrystalSky, Cendence.", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "DJI Avata Battery (Батарея)", price: "19 500 p", exPrice: "", desc: "Батарея для DJI Avata", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "Smart Flight Battery для Autel Max 4T", price: "39 000 p", exPrice: "", desc: "", category: "Батареи", outOfStock: "", pages: "" },
-    { name: "DJI Avata 2 Battery (Батарея)", price: "17 500 p", exPrice: "", desc: "Батарея для DJI Avata 2", category: "Батареи", outOfStock: "", pages: "" },
+    { name: "DJI Mavic 3 Intelligent Flight Battery (Батарея)", price: "19 500 p", exPrice: "", desc: "Батарея для DJI Mavic 3.", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "DJI Matrice 350 TB65 Battery (Батарея)", price: "70 000 p", exPrice: "", desc: "Батарея для DJI Matrice 350.", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "DJI Matrice 300 Battery TB60 (Батарея)", price: "75 000 p", exPrice: "", desc: "Батарея для DJI Matrice 300.", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "DJI Matrice 30 Battery TB30 (Батарея)", price: "43 000 p", exPrice: "", desc: "Батарея для DJI Matrice 30", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "Mavic 2 Enterprise Battery (Батарея)", price: "19 999 p", exPrice: "", desc: "Батарея для Mavic 2", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "WB37 Battery (Батарея)", price: "15 000 p", exPrice: "", desc: "Батарея для RC Plus, CrystalSky, Cendence.", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "DJI Avata Battery (Батарея)", price: "19 500 p", exPrice: "", desc: "Батарея для DJI Avata", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "Smart Flight Battery для Autel Max 4T", price: "39 000 p", exPrice: "", desc: "", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "DJI Avata 2 Battery (Батарея)", price: "17 500 p", exPrice: "", desc: "Батарея для DJI Avata 2", category: "Батареи", outOfStock: "", pages: "batteries-all" },
+    { name: "Зарядное устройство 6 в 1 для DJI Mavic 3-3T-3Pro", price: "8 000 p", exPrice: "", desc: "Сетевое зарядное устройство", category: "Батареи", outOfStock: "", pages: "batteries-all" },
 
 
     // 19.Зарядные станции    
@@ -243,11 +244,11 @@ var arrayData = [
     { name: "Хаб для заряда 3х аккмуляторов DJI Mini 3 Pro - 4 Pro Two-Way Charging Hub", price: "10 000 p", exPrice: "", desc: "Two-Way Charging Hub - Это двухсторонний зарядный концентратор, который может одновременно заряжать пульт управления и три батареи. Его можно использовать как мобильный источник питания и для удобного хранения батарей. С помощью зарядного устройства DJI USB-C мощностью 30 Вт три батареи DJI Mini 3 Pro заряжаются полностью за три часа, что значительно повышает эффективность зарядки.", category: "Зарядные станции", outOfStock: "", pages: "" },
 
     // 20.Пропеллеры
-    {
-        name: "Mavic 3 Low-Noise Propellers (Пропеллеры)", price: "3 500 p", exPrice: "", desc: "Малошумные пропеллеры для Mavic 3", category: "Пропеллеры", outOfStock: "", pages: ""
-    },
-    { name: "DJI Matrice 300 Propellers 2110 (Пропеллеры)", price: "13 500 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 300", category: "Пропеллеры", outOfStock: "", pages: "" },
-    { name: "Matrice 30-30T (Пропеллеры)", price: "13 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 30/30T", category: "Пропеллеры", outOfStock: "", pages: "" },
+    { name: "Mavic 3 Low-Noise Propellers (Пропеллеры)", price: "3 500 p", exPrice: "", desc: "Малошумные пропеллеры для Mavic 3", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
+    { name: "DJI Matrice 300 Propellers 2110 (Пропеллеры)", price: "13 500 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 300", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
+    { name: "Matrice 30-30T (Пропеллеры)", price: "13 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 30/30T", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
+    { name: "Autel Max 4T (Пропеллеры)", price: "5 000 p", exPrice: "", desc: "Пропеллеры для DJI Autel Max 4T", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
+    { name: "DJI Matrice 350 Propellers 2110 (Пропеллеры)", price: "14 000 p", exPrice: "", desc: "Пропеллеры для DJI Matrice 350", category: "Пропеллеры", outOfStock: "", pages: "propellers-all" },
 
     // 21.Системы сброса
     { name: "DJI Mavic 3 Release System BRDRC (Система сброса)", price: "3 800 p", exPrice: "", desc: "Система сброса для DJI Mavic 3.", category: "Системы сброса", outOfStock: "", pages: "" },
@@ -262,8 +263,8 @@ var arrayData = [
 
 
     // 23.Сумки и кейсы
-    { name: "DJI Convertible Carrying Bag (Сумка)", price: "4 000 p", exPrice: "", desc: "Транспортировочная сумка для Mavic 3", category: "Сумки и", outOfStock: "", pages: "" },
-    { name: "Mavic 3 Carrying Case PGYTECH (Кейс)", price: "11 000 p", exPrice: "", desc: "Транспортировочный кейс для Mavic 3", category: "Сумки и", outOfStock: "", pages: "" },
+    { name: "DJI Convertible Carrying Bag (Сумка)", price: "4 000 p", exPrice: "", desc: "Транспортировочная сумка для Mavic 3", category: "Сумки и", outOfStock: "", pages: "bags-all" },
+    { name: "Mavic 3 Carrying Case PGYTECH (Кейс)", price: "11 000 p", exPrice: "", desc: "Транспортировочный кейс для Mavic 3", category: "Сумки и", outOfStock: "", pages: "bags-all" },
 
     // 24.RTK
     { name: "Mavic 3 Enterprise RTK", price: "37 000 p", exPrice: "", desc: "RTK-модуль для Mavic 3 Enterprise", category: "RTK", outOfStock: "", pages: "" },
@@ -326,9 +327,9 @@ var arrayData = [
 
 
     // 33.Спутниковая связь для СВО
-    { name: "Спутниковая связь V3", price: "100 000 р", exPrice: "", desc: "Спутниковая связь V3 представляет современную спутниковую систему, она предназначена для обеспечения высокоскоростного интернета в любой точке мира", category: "Спутниковая связь для СВО", outOfStock: "", pages: "" },
-    { name: "Спутниковая связь V2", price: "90 000 p", exPrice: "", desc: "Спутниковая связь V2 представляет продвинутую спутниковую систему, она предназначенная для обеспечения высокоскоростного интернета в самых отдаленных уголках мира", category: "Спутниковая связь для СВО", outOfStock: "", pages: "" },
-    { name: "Спутниковый интернет Старлинк Мини V5", price: "110 000 p", exPrice: "", desc: "Спутниковый интернет Старлинк Мини V5 - компактный портативный комплект, который легко помещается в рюкзак, высокоскоростной интернет с минимальной задержкой. Данный комплект является энергоэффективным решением для тех, кто нуждается в недорогом и доступном доступе к интернет", category: "Спутниковая связь для СВО", outOfStock: "", pages: "" },
+    { name: "Спутниковая связь V3", price: "100 000 р", exPrice: "", desc: "Спутниковая связь V3 представляет современную спутниковую систему, она предназначена для обеспечения высокоскоростного интернета в любой точке мира", category: "Спутниковая связь для СВО", outOfStock: "", pages: "starlinks" },
+    { name: "Спутниковая связь V2", price: "90 000 p", exPrice: "", desc: "Спутниковая связь V2 представляет продвинутую спутниковую систему, она предназначенная для обеспечения высокоскоростного интернета в самых отдаленных уголках мира", category: "Спутниковая связь для СВО", outOfStock: "", pages: "starlinks" },
+    { name: "Спутниковый интернет Старлинк Мини V5", price: "110 000 p", exPrice: "", desc: "Спутниковый интернет Старлинк Мини V5 - компактный портативный комплект, который легко помещается в рюкзак, высокоскоростной интернет с минимальной задержкой. Данный комплект является энергоэффективным решением для тех, кто нуждается в недорогом и доступном доступе к интернет", category: "Спутниковая связь для СВО", outOfStock: "", pages: "starlinks" },
 
 
     // /34.Квадракоптеры
