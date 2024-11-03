@@ -21,36 +21,38 @@ window.onload = () => {
     document.querySelector(".main").style.display = "block";
 
     // paginationMainFun()
+    mySwiperCode()
 
 };
 
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    effect: "fade",
-    autoplay: {
-        delay: 5000,
-    },
+function mySwiperCode() {
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        effect: "fade",
+        autoplay: {
+            delay: 5000,
+        },
 
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-    },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
 
-    },
-});
-
+        },
+    });
+}
 
 // on click options bar
 var p_click_bar = document.querySelectorAll(".mavic_clk")
