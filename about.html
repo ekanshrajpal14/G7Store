@@ -7,7 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/ClickWindow.css">
     <link rel="stylesheet" href="./style/All_part.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -22,6 +24,21 @@
 </head>
 
 <body>
+    <div class="onClickWindow">
+        <div class="cross"><img src="./images/cross.png" alt="cross img"></div>
+        <div class="search_bar_div">
+            <div class="input_tag">
+                <div class="total_found"></div>
+                <input class="input_search" type="text" placeholder="Search your product">
+                <div class="box" onclick="getValofInput()"><img src="./images/search.png" alt="search icon img"></div>
+            </div>
+        </div>
+        <div class="data_put_here">
+            <div class="product-container">
+                <!-- data will be in this container -->
+            </div>
+        </div>
+    </div>
     <div class="about_page">
         <nav>
             <div class="navgation">
@@ -270,31 +287,17 @@
                         At G7store, we are committed to quality and reliability. Order your DJI drones confidently
                         through our simple and secure
                         WhatsApp or phone ordering service. Discover the latest DJI technology today!</p>
-                    <!-- <p>We do this through an unparalleled commitment to R&D, a culture of constant innovation and curiosity, and a focus on
-                    transforming complex technology into easy-to-use devices. Building on the ethos of “form follows function,” our products
-                    combine advanced technology with dynamic designs.</p> -->
-                    <!-- <p>Headquartered in Shenzhen, widely considered China’s Silicon Valley, DJI benefits from direct access to the suppliers,
-                    raw materials, and young, creative talent pool necessary for sustained success. Drawing on these resources, we have
-                    grown from a single small office in 2006 to a global workforce. Our offices can now be found in the United States,
-                    Germany, the Netherlands, Japan, South Korea, Beijing, Shanghai, and Hong Kong. As a privately owned and operated
-                    company, DJI focuses on our own vision, supporting creative, commercial, and nonprofit applications of our technology.
-                    Today, DJI products are redefining industries. Professionals in filmmaking, agriculture, conservation, search and
-                    rescue, energy infrastructure, and more trust DJI to bring new perspectives to their work and help them accomplish feats
-                    safer, faster, and with greater efficiency than ever before.</p> -->
+                    
                 </div>
             </div>
         </div>
 
-
         <iframe src="./components/footer.html"
             onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
-
-
-
     </div>
-
-    <script src="./javascript/common.js"></script>
+    <script async src="./javascript/about.js"></script>
+    <script async src="./javascript/common.js"></script>
 
 </body>
 

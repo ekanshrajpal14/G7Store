@@ -29,16 +29,6 @@ dropdown.forEach((item) => {
         this.querySelector(".dropdown_items").classList.toggle("active_dropdown")
         this.querySelector("i").classList.toggle("ri-arrow-drop-up-line")
     })
-    // item.addEventListener("mouseenter", function () {
-    //     // ṭhis is for hover effect on dropdown in laptop view
-    //     this.querySelector("i").classList.remove("ri-arrow-drop-down-line")
-    //     this.querySelector("i").classList.add("ri-arrow-drop-up-line")
-    // })
-    // item.addEventListener("mouseleave", function () {
-    //     // ṭhis is for hover effect on dropdown in laptop view
-    //     this.querySelector("i").classList.remove("ri-arrow-drop-up-line")
-    //     this.querySelector("i").classList.add("ri-arrow-drop-down-line")
-    // })
 })
 
 
@@ -118,3 +108,17 @@ function printData(data) {
 
 
 
+
+function onScrollFooter(e) {
+    const section3Top = document.querySelector(".mini_page3").getBoundingClientRect().top;
+    if (section3Top < 1000 ) {
+        document.querySelector(".map").innerHTML = `<iframe 
+                            src="https://yandex.com/map-widget/v1/?indoorLevel=1&ll=37.504232%2C55.742184&mode=whatshere&utm_source=share&whatshere%5Bpoint%5D=37.504232%2C55.742184&whatshere%5Bzoom%5D=17&z=17"
+                            width="300" height="300"  allowfullscreen="true" loading="lazy" style="position:relative;">
+                        </iframe>`
+        window.removeEventListener("scroll", onScrollFooter); // Remove the event listener
+    }
+    console.log(section3Top);
+}
+
+window.addEventListener("scroll", onScrollFooter);

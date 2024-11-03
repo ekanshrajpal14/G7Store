@@ -203,6 +203,12 @@ section 2  */
 
 /* page3 */
 
+#section3{
+    height: 300vh;
+    overflow: hidden;
+}
+
+
 .page3 {
     width: 100%;
     min-height: 100vh;
