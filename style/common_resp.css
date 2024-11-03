@@ -46,6 +46,11 @@
 
     .nav_item i {
         font-size: 6vw;
+        transition: all .5s;
+    }
+
+    .nav_item:hover .ri-arrow-drop-down-line {
+        transform: rotate(0deg);
     }
 
     .nav_item {

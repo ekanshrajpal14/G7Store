@@ -1,3 +1,5 @@
+// loader element creation 
+
 const loader = document.createElement('div');
 loader.className = 'loader-container no-scroll';
 const drone = document.createElement("div")
