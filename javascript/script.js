@@ -575,8 +575,8 @@ arrayData.forEach((val) => {
                                         <p class="price"> ${val.price}. &nbsp; <span>${val.exPrice}</span></p>
                                     </div>
                                     <div class="part2_bottom">
-                                        <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${val.name}!">Order Now</a>
-                                        <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${val.name}" class="read_more">Know More</a>
+                                        <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${val.name}!">Заказать сейчас</a>
+                                        <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${val.name}" class="read_more">Узнать больше</a>
                                     </div>
                                 </div>
                             </div>`
@@ -618,8 +618,8 @@ function showData(myData) {
                                             <p class="price"> ${val.price}. &nbsp; <span>${val.exPrice}</span></p>
                                         </div>
                                         <div class="part2_bottom">
-                                           <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${val.name}!">Order Now</a>
-                                        <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${val.name}" class="read_more">Know More</a>
+                                           <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${val.name}!">Заказать сейчас</a>
+                                        <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${val.name}" class="read_more">Узнать больше</a>
                                         </div>
                                     </div>
                                 </div>`

@@ -59,7 +59,8 @@
 
     div {
         padding-top: 2vw;
-        width: 23vw;
+        width: auto;
+            gap: 2vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -90,6 +91,7 @@
     font-size: 1.1vw;
     padding: .7vw 2vw;
     border-radius: 30px;
+    border: 2px solid #fff;
     background-color: #fff;
     transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
 }
@@ -97,6 +99,7 @@
 .button_class_all:hover {
     background-color: #FE8451;
     color: #fff;
+    border-color: var(--themeColor);
 }
 
 .explore:hover {

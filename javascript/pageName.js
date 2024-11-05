@@ -487,9 +487,9 @@ var arrayData = [
     { name: "DJI Osmo Action 5 Pro (Standard Combo)", price: "50 000 р", exPrice: "", desc: "DJI Osmo Action 5 Pro Standard Combo — это экшн-камера с мощным 1/1,3″ сенсором, 4-нм процессором, улучшенной стабилизацией, 4-часовой батареей и двойными OLED-экранами, идеально подходящая для съемки в экстремальных условиях", category: "Новинки &", outOfStock: "", pages: "" },
     { name: "DJI Zenmuse P1", price: "800 000 р", exPrice: "", desc: "Съемочная система Zenmuse P1 - это единая мощь полнокадровой матрицы, сменных объективов с фиксированным фокусом и подвеса с 3-осевой стабилизацией. Созданный для фотограмметрических полетов, он выводит эффективность и точность на совершенно новый уровень. Система была создана специально для выполнения фотограмметрии с борта дрона и обладает невероятной точностью и производительностью", category: "Новинки &", outOfStock: "", pages: "" },
     { name: "Спутниковый интернет Старлинк Мини V5", price: "110 000 р", exPrice: "", desc: "Спутниковый интернет Старлинк Мини V5 - компактный портативный комплект, который легко помещается в рюкзак, высокоскоростной интернет с минимальной задержкой. Данный комплект является энергоэффективным решением для тех, кто нуждается в недорогом и доступном доступе к интернет", category: "Новинки &", outOfStock: "", pages: "" },
-   
+
     // Усилители сигнала
-   
+
     { name: "Alientech Deimox", price: "285 000 р", exPrice: "", desc: "Мощный усилитель сигнала антенны Alientech Deimox, разработанный для повышения приема сигнала и улучшения качества связи", category: "", outOfStock: "", pages: "rangeboost" },
     { name: "Alientech DUO II ( для пульта RC PRO)", price: "56 500 р", exPrice: "110 000 р", desc: "Усилитель сигнала Alientech DUO II ( для пульта RC PRO)", category: "", outOfStock: "", pages: "rangeboost" },
     { name: "ALIENTECH DUO 3", price: "84 000 р", exPrice: "", desc: "Ультра-улучшенный трехдиапазонный усилитель сигнала ALIENTECH DUO 3 дрона с расширенным диапазоном и передовой технологией Mu-Mimo", category: "", outOfStock: "", pages: "rangeboost" },
@@ -498,12 +498,12 @@ var arrayData = [
     { name: "Усилитель сигнала AvengeAngel 2.4G-5.8G для дронов", price: "290 000 p", exPrice: "", desc: "Антенна для усиления сигнала AvengeAngel с частотами 2.4G и 5.8G", category: "", outOfStock: "", pages: "rangeboost" },
     { name: "Усилитель сигнала «Инкубатор 2.0»", price: "310 000 p", exPrice: "", desc: "Оригинальное название AvengeAngel 2.4G/5.8G", category: "", outOfStock: "", pages: "rangeboost" },
     { name: "Усилитель сигнала AvengeAngel StarShip Professional 830-960 МГц & 4,85-5,95 ГГц для дронов", price: "390 000 p", exPrice: "", desc: "AvengeAngel StarShip — это профессиональная FPV-антенна с активным направленным усилителем сигнала. Прибор применяется для устройств Wi-Fi, Интернета вещей (IoT), FPV и дронов, использующих частотные диапазоны 830–960 МГц и 4,85–5,95 ГГц", category: "", outOfStock: "", pages: "rangeboost" },
-   
-   
-   
-   
+
+
+
+
     { name: "", price: "", exPrice: "", desc: "", category: "", outOfStock: "", pages: "" },
-    { name: "", price: "", exPrice: "", desc: "", category: "", outOfStock:"", pages: "" },
+    { name: "", price: "", exPrice: "", desc: "", category: "", outOfStock: "", pages: "" },
     // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
     // { name: "", price: "", exPrice: "", desc: "", category: "", pages: "" },
@@ -541,8 +541,8 @@ function pageNameData(pageName) {
                                 <p class="price">${data.price}. &nbsp; <span>${data.exPrice}</span></p>
                             </div>
                             <div class="part2_bottom">
-                                <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${data.name}!">Order Now</a>
-                                <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${data.name}" class="read_more">Read More</a>
+                                <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20order%20this-${data.name}!">Заказать сейчас</a>
+                                <a href="https://api.whatsapp.com/send/?phone=+79251156327&text=Hello,%20I%20want%20to%20know%20more%20about%20${data.name}" class="read_more">Узнать больше</a>
                             </div>
                         </div>
                     </div>`
