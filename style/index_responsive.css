@@ -1,18 +1,34 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px)and (orientation: portrait) {
 
     .video {
         width: 100%;
         height: 72vh;
     }
 
+    .text_page1 {
+        width: 80%;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        h1 {
+            font-size: 1.5rem;
+           
+        }
+        p{
+            font-size: 2.5vw;
+        }
+        .btn{
+            font-size: .7rem;
+        }
+    }
+
     .slides {
         width: 100%;
-        height: 80vh;
+        height: 75vh;
     }
 
     .swiper {
         width: 100%;
-        height: 80vh;
+        height: 75vh;
     }
 
     /* page 3 optiobs */
@@ -48,16 +64,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            
+
         }
     }
-    
+
     .all_carts {
         gap: 3vw;
-        align-items: center;
         justify-content: center;
+
         .cart_box {
-            width: 19vmax;
+            width: 21vmax;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 
             .top_part {
                 width: 100%;

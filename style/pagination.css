@@ -53,3 +53,15 @@
 .pagination-number:hover{
     border: 1px solid #000;
 }
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+#pagination-numbers {
+    max-width: 100%;
+    button{
+        font-size: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+}
+    
+}
