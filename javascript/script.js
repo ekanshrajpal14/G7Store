@@ -19,9 +19,8 @@ document.body.appendChild(loader);
 window.onload = () => {
     document.querySelector(".loader-container").style.display = "none";
     document.querySelector(".main").style.display = "block";
-
     // paginationMainFun()
-    mySwiperCode()
+    // mySwiperCode()
 
 };
 
@@ -731,7 +730,6 @@ const appendPageNumber = (index) => {
     pageNumber.innerHTML = index;
     pageNumber.setAttribute("page-index", index);
     pageNumber.setAttribute("aria-label", "Page " + index);
-
     paginationNumbers.appendChild(pageNumber);
 };
 
@@ -742,7 +740,6 @@ const appendEllipsis = () => {
     ellipsis.innerHTML = "...";
     ellipsis.className = "ellipsis";
     paginationNumbers.appendChild(ellipsis);
-
 };
 
 const getPaginationNumbers = () => {
@@ -787,15 +784,12 @@ const attachPageClickHandlers = () => {
 
 const setCurrentPage = (pageNum) => {
     currentPage = pageNum;
-
     handlePageButtonsStatus();
     getPaginationNumbers(); // Update page numbers with ellipses
     attachPageClickHandlers();
     handleActivePageNumber(); // handles color of pagination number
-
     const prevRange = (pageNum - 1) * paginationLimit;
     const currRange = pageNum * paginationLimit;
-
     listItems.forEach((item, index) => {
         item.classList.add("hidden");
         if (index >= prevRange && index < currRange) {
@@ -816,7 +810,6 @@ nextButton.addEventListener("click", () => {
 
 });
 function paginationMainFun() {
-
     try {
         getPaginationNumbers()
     } catch (err) {
@@ -836,9 +829,16 @@ function onScroll(e) {
         paginationMainFun();
         window.removeEventListener("scroll", onScroll); // Remove the event listener
     }
-    console.log(section3Top);
 }
 
+function onScrollSection2() {
+    const section2Top = document.querySelector(".section2").getBoundingClientRect().top;
+    if (section2Top < 300) {
+        mySwiperCode()
+        window.removeEventListener("scroll", onScrollSection2); // Remove the event listener
+    }
+}
+window.addEventListener("scroll", onScrollSection2);
 window.addEventListener("scroll", onScroll);
 
 

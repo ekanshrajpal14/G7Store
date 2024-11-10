@@ -34,6 +34,17 @@
         height: 75vh;
     }
 
+    .header_swiper_next_btn::after,
+    .header_swiper_prev_btn::after {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .header_swiper_next_btn,
+    .header_swiper_prev_btn {
+        top: 57%;
+    }
+
     .container {
         .headline {
             font-size: 16px;
@@ -115,6 +126,12 @@
 
     .slide_one {
         padding-top: 3vh;
+    }
+
+    .header_swiper_next_btn::after,
+    .header_swiper_prev_btn::after {
+        color: #fff;
+        font-size: 12px;
     }
 
     .page3 {

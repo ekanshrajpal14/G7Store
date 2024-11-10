@@ -118,7 +118,6 @@ function onScrollFooter(e) {
                         </iframe>`
         window.removeEventListener("scroll", onScrollFooter); // Remove the event listener
     }
-    console.log(section3Top);
 }
 
 window.addEventListener("scroll", onScrollFooter);
