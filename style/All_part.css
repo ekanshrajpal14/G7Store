@@ -153,9 +153,10 @@
 
 .all_carts:has(.cart_box:only-child) {
     justify-content: start;
+
     .cart_box {
-            width: 350px;
-        }
+        width: 350px;
+    }
 }
 
 /* end carts */
@@ -351,7 +352,8 @@ footer {
 
     .footer {
         width: 100%;
-        height: 40vh;
+        min-height: 40vh;
+        height: auto;
         padding: 3vw;
         padding-left: 4vw;
         padding-bottom: 0;
@@ -649,7 +651,8 @@ footer {
 
             .bottom_part {
                 width: 100%;
-                min-height: 14vh;
+                padding-bottom: 10px;
+                height: calc(100% - 20vh);
 
                 .part1_bottom {
 
@@ -692,7 +695,7 @@ footer {
 
     /* mini page - footer component */
     .mini_page3 {
-        height: 70vh;
+        min-height: 70vh;
 
         .container_mini {
             width: 90vw;
@@ -708,36 +711,37 @@ footer {
             width: 100%;
 
             h1 {
-                font-size: 6vw;
+                font-size: 40px;
             }
 
             p {
-                font-size: 2.7vw;
+                font-size: 20px;
             }
         }
 
         .content_mini_bottom {
             height: 60%;
+            padding-top: 0;
         }
 
         .right_cmb {
             h3 {
-                font-size: 2vw;
+                font-size: 19px;
             }
 
             p {
-                font-size: 2vw;
+                font-size: 14px;
             }
         }
     }
 
     .mini_last_page .heading_decos {
-        font-size: 6vw;
+        font-size: 27px;
     }
 
     .container_last_page {
         width: 96%;
-        height: 100vh;
+        height: auto;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -760,15 +764,15 @@ footer {
         line-height: normal;
 
         h2 {
-            font-size: 4.8vw;
+            font-size: 27px;
         }
 
         p {
-            font-size: 2.8vw;
+            font-size: 17px;
         }
 
         a {
-            font-size: 2.8vw;
+            font-size: 17px;
         }
 
         .changes_btn_class {
@@ -782,7 +786,7 @@ footer {
         .size_enhance {
             width: 7.5vw;
             height: 7.5vw;
-            font-size: 4vw;
+            font-size: 24px;
         }
     }
 
@@ -793,12 +797,13 @@ footer {
 
     footer {
         .footer {
-            height: 67vh;
+            min-height: auto;
             padding: 0 3vw;
         }
 
         .footer_content {
             flex-direction: column;
+            min-height: 90vh;
             justify-content: space-evenly;
         }
 
@@ -807,12 +812,12 @@ footer {
             height: auto;
 
             h3 {
-                font-size: 5vw;
+                font-size: 24px;
             }
 
             p {
                 line-height: normal;
-                font-size: 2.5vw;
+                font-size: 14px;
             }
 
             .social_btns {
@@ -823,7 +828,7 @@ footer {
                     height: 8vw;
 
                     i {
-                        font-size: 4.5vw;
+                        font-size: 24px;
                     }
                 }
             }
@@ -835,14 +840,15 @@ footer {
 
             .foot_icon {
                 i {
-                    font-size: 5.6vw;
+                    font-size: 26px;
                 }
             }
 
             h5 {
-                font-size: 2.5vw;
+                font-size: 13px;
             }
         }
+
 
         .foot_right {
             height: auto;
@@ -855,7 +861,7 @@ footer {
                 gap: 2vw;
 
                 a {
-                    font-size: 2.7vw;
+                    font-size: 13px;
                 }
             }
 
@@ -876,21 +882,171 @@ footer {
             flex-direction: column;
 
             p {
-                font-size: 2.3vw;
+                font-size: 13px;
             }
 
             a {
-                font-size: 2.3vw;
+                font-size: 13px;
             }
         }
     }
 }
 
 @media screen and (max-width: 400px) and (orientation: portrait) {
+
+
     .all_carts {
         gap: 2vw;
         padding: 2vw;
+        padding-top: 3vw;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         justify-content: center;
+
+        .cart_box {
+            .bottom_part {
+                .part1_bottom {
+                    h3 {
+                        font-size: 15.5px;
+                    }
+
+                    p {
+                        font-size: 11px;
+                    }
+
+                    .price {
+                        font-size: 15px;
+                    }
+
+                }
+
+                .part2_bottom {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
     }
+
+    .mini_page3 {
+        height: 90vh;
+
+        .container_mini {
+            width: 95vw;
+        }
+
+        .content_mini_top {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .right_cmb {
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .mini_last_page .heading_decos {
+        font-size: 22px;
+    }
+
+    .left_right_last_page {
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    .left_right_last_page {
+        width: 75vw;
+
+        .size_enhance {
+            width: 11.5vw;
+            height: 11.5vw;
+            font-size: 24px;
+        }
+
+        a {
+            font-size: 13px;
+        }
+    }
+
+    .wtsapp_tele {
+        width: 40%;
+    }
+
+    footer {
+        .foot_left {
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        .foot_left {
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .social_btns {
+
+                a {
+                    i {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        .foot_center {
+            .foot_icon {
+                i {
+                    font-size: 24px;
+                }
+            }
+
+            h5 {
+                font-size: 12px;
+            }
+        }
+
+
+        .foot_right {
+            .quick_links {
+                a {
+                    font-size: 12px;
+                }
+            }
+
+        }
+
+        .copyright_footer {
+
+
+            p {
+                font-size: 11px;
+            }
+
+            a {
+                font-size: 11px;
+            }
+        }
+    }
+
 }
