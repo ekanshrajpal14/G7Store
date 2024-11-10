@@ -835,6 +835,7 @@ function onScrollSection2() {
     const section2Top = document.querySelector(".section2").getBoundingClientRect().top;
     if (section2Top < 300) {
         mySwiperCode()
+        document.querySelector(".all_carts").style.display = "grid";
         window.removeEventListener("scroll", onScrollSection2); // Remove the event listener
     }
 }

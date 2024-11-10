@@ -11,7 +11,7 @@ var res = (save[save.length - 1]).split(".");
 
 var pageName = res[0];
 console.log(pageName);
-
+document.querySelector(".all_carts").style.display = "grid";
 
 
 var arrayData = [
