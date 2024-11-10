@@ -711,22 +711,22 @@ footer {
             width: 100%;
 
             h1 {
-                font-size: 40px;
+                font-size: 36px;
             }
 
             p {
-                font-size: 20px;
+                font-size: 17px;
             }
         }
 
         .content_mini_bottom {
-            height: 60%;
+            height: auto;
             padding-top: 0;
         }
 
         .right_cmb {
             h3 {
-                font-size: 19px;
+                font-size: 18px;
             }
 
             p {
@@ -760,19 +760,19 @@ footer {
     }
 
     .left_right_last_page {
-        width: 70vw;
+        width: 85vw;
         line-height: normal;
 
         h2 {
-            font-size: 27px;
+            font-size: 23px;
         }
 
         p {
-            font-size: 17px;
+            font-size: 14.5px;
         }
 
         a {
-            font-size: 17px;
+            font-size: 14.5px;
         }
 
         .changes_btn_class {
@@ -784,9 +784,9 @@ footer {
         }
 
         .size_enhance {
-            width: 7.5vw;
-            height: 7.5vw;
-            font-size: 24px;
+            width: 8.5vw;
+            height: 8.5vw;
+            font-size: 22px;
         }
     }
 
@@ -961,6 +961,8 @@ footer {
     }
 
     .left_right_last_page {
+        width: 75vw;
+
         h2 {
             font-size: 18px;
         }
@@ -968,15 +970,14 @@ footer {
         p {
             font-size: 13px;
         }
-    }
 
-    .left_right_last_page {
-        width: 75vw;
+
+
 
         .size_enhance {
             width: 11.5vw;
             height: 11.5vw;
-            font-size: 24px;
+            font-size: 22px;
         }
 
         a {
@@ -989,11 +990,6 @@ footer {
     }
 
     footer {
-        .foot_left {
-            h3 {
-                font-size: 24px;
-            }
-        }
 
         .foot_left {
             h3 {
@@ -1049,4 +1045,11 @@ footer {
         }
     }
 
+
+    .all_carts.starlinks{
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        .cart_box{
+            width: auto;
+        }
+    }
 }
