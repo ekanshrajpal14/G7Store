@@ -16,13 +16,15 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    .img{
+
+    .img {
         width: 100%;
         height: 100%;
         margin-top: 3vw;
-        object-position:center;
+        object-position: center;
         object-fit: cover;
     }
+
     video {
         width: 100%;
         aspect-ratio: 16/9;
@@ -60,7 +62,7 @@
     div {
         padding-top: 2vw;
         width: auto;
-            gap: 2vw;
+        gap: 2vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -138,6 +140,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 
 }
+
 /* 
 .mini_page3 {
     width: 100%;
@@ -288,3 +291,40 @@
 .mini_last_page .heading_decos {
     font-size: 2.5vw;
 } */
+
+@media screen and (max-width: 650px) and (orientation : portrait) {
+    .mini_page1 {
+        height: 85vh;
+
+        .mini_page1_text {
+            width: 100%;
+            text-align: center;
+
+            .heading_decos {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .button_class_all {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .containers{
+        padding: 4vw 0vw;
+        h5{
+            font-size: 16px;
+            padding:2vw  4vw ;
+        }
+    }
+}
+@media screen and (max-width: 400px) and (orientation : portrait) {
+    .button_class_all {
+            font-size: 12px;
+            padding: 8px 18px;
+        }
+}

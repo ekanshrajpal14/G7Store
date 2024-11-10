@@ -54,7 +54,7 @@
     border: 1px solid #000;
 }
 
-@media screen and (max-width: 700px) and (orientation: portrait){
+@media screen and (max-width: 650px) and (orientation: portrait){
 #pagination-numbers {
     max-width: 100%;
     button{

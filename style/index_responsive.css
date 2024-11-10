@@ -1,23 +1,26 @@
-@media screen and (max-width:700px)and (orientation: portrait) {
+@media screen and (max-width:650px)and (orientation: portrait) {
 
     .video {
         width: 100%;
-        height: 72vh;
+        height: 90vh;
     }
 
     .text_page1 {
-        width: 80%;
-        transform: translate(-50%,-50%);
+        width: 97%;
+        transform: translate(-50%, -50%);
         top: 50%;
+
         h1 {
-            font-size: 1.5rem;
-           
+            font-size: 27px;
+
         }
-        p{
-            font-size: 2.5vw;
+
+        p {
+            font-size: 15px;
         }
-        .btn{
-            font-size: .7rem;
+
+        .btn {
+            font-size: 8px;
         }
     }
 
@@ -29,6 +32,22 @@
     .swiper {
         width: 100%;
         height: 75vh;
+    }
+    .container {
+        .headline {
+            font-size: 16px;
+            padding: 2vw 4vw;
+        }
+        h1{
+            font-size: 30px;
+        }
+        .subheadline{
+            font-size: 16px;
+        }
+        .btn{
+            font-size: 12px;
+            padding: 10px 20px;
+        }
     }
 
     /* page 3 optiobs */
@@ -48,7 +67,7 @@
             margin-left: 4vw;
 
             a {
-                font-size: 5vw;
+                font-size: 20px;
                 margin-bottom: 2vw;
             }
 
@@ -60,61 +79,24 @@
 
         .right {
             width: 100%;
-            padding: 3vw 5vw;
             display: flex;
             align-items: center;
             justify-content: center;
 
         }
     }
+}
 
-    .all_carts {
-        gap: 3vw;
-        justify-content: center;
-
-        .cart_box {
-            width: 21vmax;
-            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-
-            .top_part {
-                width: 100%;
-                height: 20vh;
-            }
-
-            .bottom_part {
-                width: 100%;
-                min-height: 14vh;
-
-                .part1_bottom {
-
-                    h3 {
-                        font-size: 3.2vw;
-                    }
-
-                    p {
-                        font-size: 2vw;
-                        margin-top: 1vw;
-                    }
-
-                    .price {
-                        font-size: 2.3vw;
-                        margin: 2vw 0;
-                    }
-                }
-
-                .part2_bottom {
-                    a {
-                        font-size: 2.3vw;
-                        padding: 2.6vw 1.5vw;
-                        width: 120px;
-                    }
-
-                    .read_more {
-                        padding: 2.5vw 1.5vw;
-
-                    }
-                }
-            }
+@media screen and (max-width: 400px) and (orientation: portrait) {
+    .text_page1 {
+        h1 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 13px;
+        }
+        .btn {
+            font-size: 7px;
         }
     }
 
