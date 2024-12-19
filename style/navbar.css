@@ -138,7 +138,7 @@ nav {
     min-width: 10vw;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:650px) {
     .dropdown_hover_effect:hover .dropdown_items {
         display: block;
     }
@@ -340,8 +340,6 @@ nav {
         min-width: 68vw;
     }
 
-
-
     .nav_links.active_nav {
         right: 0;
     }
@@ -406,4 +404,28 @@ nav {
 
     }
 
+}
+
+
+@media screen and (max-width:1000px) and (orientation: portrait) {
+    .logo {
+        width: 11vw;
+    }
+
+    .nav_item a {
+        font-size: 9px;
+    }
+    .nav_links{
+        width: 70%;
+    }
+    .right_item{
+        padding: 0;
+    }
+    .wtsapp_tele{
+        width: 12%;
+    }
+    .call_circle{
+        width: 3vw;
+        height: 3vw;
+    }
 }
