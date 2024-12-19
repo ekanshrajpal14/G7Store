@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G7-Store || About-us</title>
+    <title>G7-Store || Upcoming</title>
     <link rel="shortcut icon" href="./logo/G7-favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style/navbar.css">
-    <link rel="stylesheet" href="./style/about.css">
-    <link rel="stylesheet" href="./style/ClickWindow.css">
-    <link rel="stylesheet" href="./style/All_part.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap"
-        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
-    <!-- styling -->
-    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/ClickWindow.css">
+    <link rel="stylesheet" href="./style/mini.css">
+    <link rel="stylesheet" href="./style/All_part.css">
+
+    <style>
+        .Upcoming {
+            width: 100%;
+            height: 100vh;
+            background-image: url(./images/no_avaibale.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+
 </head>
 
 <body>
     <div class="onClickWindow">
-        <div class="cross"><img src="./images/cross.png" alt="cross img"></div>
+        <div class="cross"><img src="./images/cross.png" alt=""></div>
         <div class="search_bar_div">
             <div class="input_tag">
                 <div class="total_found"></div>
                 <input class="input_search" type="text" placeholder="Search your product">
-                <div class="box" onclick="getValofInput()"><img src="./images/search.png" alt="search icon img"></div>
+                <div class="box" onclick="getValofInput()"><img src="./images/search.png" alt=""></div>
             </div>
         </div>
         <div class="data_put_here">
@@ -40,7 +45,7 @@
             </div>
         </div>
     </div>
-    <div class="about_page">
+    <div class="">
         <nav>
             <div class="navgation">
                 <div class="navbar">
@@ -255,53 +260,15 @@
                 </div>
             </div>
         </nav>
-
-        <div class="about_page1">
-            <div class="abt_img">
-                <div class="center_content">
-                    <h1 class="sriracha_regular heading_decos"><span class="changes_in_color_white_about">ABOUT</span>
-                    </h1>
-                    <h2>G7 STORE</h2>
-                </div>
-            </div>
-
-        </div>
-        <div class="about_page2">
-            <div class="left_about">
-                <div class="left_abt_content">
-                    <a href="" class="about_text_g7">About G7 Store</a>
-                    <!-- <a href="">Contact G7 Store</a> -->
-                </div>
-            </div>
-            <div class="right_about">
-                <div class="left_abt_content">
-                    <p>Добро пожаловать в G7store, ваш надежный источник дронов и аксессуаров для дронов DJI в России.
-                        Мы предлагаем тщательно
-                        подобранный выбор высококачественных продуктов DJI для любителей дронов, фотографов и
-                        предприятий по всей России.
-                    </p>
-                    <h1 style="margin-bottom: 2vw;margin-top: 1vw;">Почему стоит покупать в G7store?</h1>
-                    <p>100% подлинная продукция DJI: все товары поставляются напрямую от DJI с официальной гарантией и
-                        контролем качества..</p>
-                    <p>Простота оформления заказа: просто оформите заказ через WhatsApp или позвонив нам для быстрого и
-                        прямого взаимодействия..</p>
-                    <p>Быстрая и надежная доставка: наслаждайтесь отслеживаемой, безопасной доставкой в ​​любую точку
-                        России. В G7store мы
-                        стремимся к качеству и надежности. Заказывайте свои дроны DJI уверенно через наш простой и
-                        безопасный WhatsApp или
-                        телефонный сервис заказов. Откройте для себя новейшие технологии DJI сегодня!</p>
-
-                </div>
-            </div>
-        </div>
-
+        <div class="Upcoming"></div>
         <iframe src="./components/footer.html"
             onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
-    </div>
-    <script async src="./javascript/about.js"></script>
-    <script async src="./javascript/common.js"></script>
 
+    </div>
+
+    <script async src="./javascript/pageName.js"></script>
+    <script async src="./javascript/common.js"></script>
 </body>
 
 </html>
