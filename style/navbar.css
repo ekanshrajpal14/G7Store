@@ -293,13 +293,13 @@ nav {
     /* .avoid scrolling when menu opens */
 }
 
-@media screen and (max-width:990px) and (orientation: portrait) {
+@media screen and (max-width:990px) {
     .logo {
         width: 11vw;
     }
 
     .nav_item a {
-        font-size: 14px !important;
+        font-size: 12px;
     }
 
     .nav_links {
@@ -391,9 +391,13 @@ nav {
 
         .dropdown_items {
             position: unset;
-
+            div{
+                div{
+                    width: 100%;
+                }
+            }
             p {
-                font-size: 2.9vw;
+                font-size: 12px;
             }
 
         }
@@ -402,7 +406,7 @@ nav {
 
 
     .nav_item a {
-        font-size: 4.5vw;
+        font-size: 16px;
         text-align: center;
     }
 
