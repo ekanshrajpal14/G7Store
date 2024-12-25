@@ -65,6 +65,7 @@ a {
         font-size: 3rem;
         margin-bottom: 10px;
         color: #fff;
+
         span {
             font-weight: 300;
         }
@@ -105,12 +106,14 @@ a {
     background-position: center;
     background-size: cover;
     padding-top: 10vh;
+
     img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center;
     }
+
     .container {
         text-align: center;
     }
@@ -195,7 +198,7 @@ a {
 
 /* page3 */
 
-#section3{
+#section3 {
     height: 300vh;
     overflow: hidden;
 }
@@ -205,13 +208,15 @@ a {
     width: 100%;
     min-height: 100vh;
     display: flex;
+
     .left {
         width: 18vw;
         height: auto;
         padding-top: 4vw;
     }
+
     .all_options {
-        margin-left:2vw;
+        margin-left: 2vw;
         width: 80%;
         height: 80%;
 
@@ -277,3 +282,23 @@ a {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .video{
+        height: 70vh;
+    }
+    .text_page1 {
+        width: 90%;
+
+        h1 {
+            font-size: 38px;
+        }
+    }
+    .swiper{
+        height: 70vh;
+    }
+    .slides{
+        height: 70vh;
+    }
+
+
+}
