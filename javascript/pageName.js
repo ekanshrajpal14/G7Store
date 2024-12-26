@@ -526,7 +526,7 @@ function pageNameData(pageName) {
 
         if (data.pages.toLowerCase() === pageName.toLowerCase()) {
 
-            cluuter += `<div class="cart_box">
+            cluuter += `<div class="cart_box" id="${data.outOfStock}">
                         <div class="top_part">
                             <div class="image_cont">
                                 <img src="./webp_img/${data.name}.webp"

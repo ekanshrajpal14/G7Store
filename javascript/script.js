@@ -72,6 +72,7 @@ let currentPage = 1; //for pagination
 
 
 var arrayData = [
+    // outOfStock should be a id name by - outOfStock and if you did changes so please also add in pageName.js file and this ouOfStock css file is All_part.css
     // ronins
     { name: "Стабилизатор DJI RS 3 Pro Combo", price: "110 000 p", exPrice: "", desc: "Стабилизатор со множеством креплений для съемки", category: "ronin", outOfStock: "", pages: "ronin" },
     { name: "Стабилизатор DJI Ronin RS 4 Pro Combo", price: "160 000 p", exPrice: "", desc: "Инновационное устройство для стабилизации, обладающее высокой грузоподъемностью до 4,5 кг и обеспечивающее улучшенную стабильность съемки", category: "ronin", outOfStock: "", pages: "ronin" },
@@ -559,7 +560,7 @@ var arrayData = [
 var clutter = ""
 
 arrayData.forEach((val) => {
-    clutter += `<div class="cart_box" data-category="${val.category}" >
+    clutter += `<div class="cart_box" id="${val.outOfStock}" data-category="${val.category}" >
                                 <div class="top_part">
                                     <div class="image_cont">
                                         <img src="./webp_img/${val.name}.webp"
@@ -602,7 +603,7 @@ function showData(myData) {
     else {
 
         myData.forEach((val) => {
-            newClutter += `<div class="cart_box" data-category="${val.category}" >
+            newClutter += `<div class="cart_box" id=${val.outOfStock} data-category="${val.category}" >
                                     <div class="top_part">
                                         <div class="image_cont">
                                             <img src="./webp_img/${val.name}.webp"
