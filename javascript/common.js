@@ -121,3 +121,19 @@ function onScrollFooter(e) {
 }
 
 window.addEventListener("scroll", onScrollFooter);
+
+
+
+// Enable / Disable maintenance mode
+const maintenanceMode = false;
+
+// Your maintenance page path
+const maintenancePage = "/maintenance.html";
+
+if (maintenanceMode) {
+    const currentPage = window.location.pathname;
+
+    if (!currentPage.includes("maintenance.html")) {
+        window.location.replace(maintenancePage);
+    }
+}
